@@ -1,0 +1,301 @@
+<div class="container">
+    <h1 class="headline-alert">Cart</h1>
+    <p>A shopping cart page with a list of products that were added to the cart and the totals.</p>
+    <hr>
+    <div class="container-fluid table">
+        <div class="row d-none d-md-flex table-header">
+            <div class="col-md-2 table-cell">Product</div>
+            <div class="col-md table-cell"></div>
+            <div class="col-md-2 col-xl-1 table-cell">Price</div>
+            <div class="col-md-2 col-xl-1 table-cell">Quantity</div>
+            <div class="col-md-2 table-cell">Total</div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 px-0">
+                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="img-fluid" alt="Carina Nebula captured by the Hubble Space Telescope">
+            </div>
+            <div class="col-md">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Product
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        <p class="headline3">Carina Nebula Print</p>
+                        <p>Material: Canvas, Size: DIN A2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-xl-1">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Price
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        19,90 €
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-xl-1">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Quantity
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        <input class="form-control" type="number" value="2"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Total
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        39,80 €
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 px-0">
+                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="img-fluid" alt="Carina Nebula captured by the Hubble Space Telescope">
+            </div>
+            <div class="col-md">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Product
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        <p class="headline3">Carina Nebula Print</p>
+                        <p>Material: Canvas, Size: DIN A2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-xl-1">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Price
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        19,90 €
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-xl-1">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Quantity
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        <input class="form-control" type="number" value="2"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Total
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        39,80 €
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-4 offset-lg-2">
+            <div class="container-fluid table">
+                <div class="row">
+                    <div class="col table-sidebar table-cell">
+                        <div class="row">
+                            <div class="col-6 col-md-8 col-xl-6 table-cell">Subotal (incl. tax)</div>
+                            <div class="col-6 col-md-4 col-xl-6 table-cell">89,60 €</div>
+                            <div class="col-6 col-md-8 col-xl-6 table-cell text-muted">Tax (AT 20%)</div>
+                            <div class="col-6 col-md-4 col-xl-6 table-cell text-muted">17,92 €</div>
+                            <div class="col-6 col-md-8 col-xl-6 table-cell">Shipping</div>
+                            <div class="col-6 col-md-4 col-xl-6 table-cell">4,90 €</div>
+                            <div class="col-6 col-md-8 col-xl-6 table-cell font-weight-bold">Total</div>
+                            <div class="col-6 col-md-4 col-xl-6 table-cell font-weight-bold">94,50 €</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-lg btn-block btn-success"><i class="fa fa-fw fa-coins"></i> Go to Checkout</button>
+        </div>
+        <div class="col-md-6 order-md-first">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Do you have a coupon?</h5>
+                    <p>If you have a coupon code, you can use it here. Only one coupon at a time can be used.</p>
+                    <div class="form-group">
+                        <label>Coupon code</label>
+                        <input class="form-control" type="text" placeholder="Please enter your coupon code ..."/>
+                    </div>
+                    <button class="btn btn-highlight">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="related-products">
+        <h3 class="headline2">You may also need</h3>
+        <div id="carouselRelated" class="carousel slide mb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li
+                    data-target="#carouselRelated"
+                    data-slide-to="0"
+                    class="active"
+                ></li>
+                <li data-target="#carouselRelated" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5">
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5">
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a
+                class="carousel-control-prev"
+                href="#carouselRelated"
+                role="button"
+                data-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a
+                class="carousel-control-next"
+                href="#carouselRelated"
+                role="button"
+                data-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>

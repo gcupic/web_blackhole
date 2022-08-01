@@ -1,0 +1,43 @@
+<div class="container">
+    <h1 class="headline-alert">Standard Contact Form</h1>
+    <p>This is an example contact form with the standard styles.</p>
+    <hr>
+    <form>
+        <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" class="form-control" id="name" placeholder="Please enter your name ...">
+        </div>
+        <div class="form-group">
+            <label for="email">Your email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Please enter your email adress ...">
+        </div>
+        <div class="form-group">
+            <label for="request">How can we help you?</label>
+            <select id="request" class="form-control selectpicker" data-style="btn-highlight">
+                <option>Technical problem</option>
+                <option>Business inquiry</option>
+                <option>Application</option>
+                <option>General Support</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Please enter your message ..."></textarea>
+        </div>
+        <label>Add any files you want us to see:</label>
+        <div class="input-group">
+            <label class="input-group-btn btn btn-highlight">
+                <i class="fa fa-fw fa-file"></i> Browse&hellip;
+                <input type="file" style="display: none;" multiple>
+            </label>
+            <input type="text" class="form-control" placeholder="Please add your files ..." readonly>
+        </div>
+        <div class="form-group mt-5">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="agb">
+                <label class="form-check-label" for="agb"><i class="fa fa-check"></i> I agree to the terms of service</label>
+            </div>
+        </div>
+        <button class="btn btn-highlight">Send Message</button>
+    </form>
+</div>

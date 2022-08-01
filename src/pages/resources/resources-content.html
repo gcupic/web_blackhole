@@ -1,0 +1,284 @@
+<div class="container">
+    <h1 class="headline-alert">Resources</h1>
+    <p>With the grid system and responsive tables there are several possibilities to display structured data, e.g. resource management.</p>
+    <hr>
+    <div class="card compact">
+        <span class="corner-border-top"></span>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <strong>Active planet:</strong>
+                </div>
+                <div class="col-6 col-md-10">
+                    <form class="form-simple">
+                        <select class="form-control dropdown-small selectpicker" data-style="btn-primary">
+                            <option>Planet Prime</option>
+                            <option>Planet Omega</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    Class
+                </div>
+                <div class="col-6 col-md-10">
+                    <div class="no-break">
+                        <div data-toggle="tooltip" data-placement="top" title="Planet's class and subclass in brackets.">
+                            <i class="fa fa-fw fa-globe"></i> M (Marshland)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    Population
+                </div>
+                <div class="col-6 col-md-10">
+                    <div class="no-break">
+                        <div data-toggle="tooltip" data-placement="top" title="Current population / Maximum population (+ Growth)">
+                            <i class="fa fa-fw fa-users"></i> 376/1250 (+1)
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="Unemployed workers.">
+                            <i class="fa fa-fw fa-user-clock"></i> 7
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    Production
+                </div>
+                <div class="col-6 col-md-10">
+                    <div class="no-break">
+                        <div data-toggle="tooltip" data-placement="top" title="Construction">
+                            <i class="fa fa-fw fa-wrench"></i> +10
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="Shipyard">
+                            <i class="fa fa-fw fa-rocket"></i> +0
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="Barracks">
+                            <i class="fa fa-fw fa-user-astronaut"></i> +0
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="Latinum">
+                            <i class="fa fa-fw fa-coins"></i> -11
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="Fuel">
+                            <i class="fa fa-fw fa-fire"></i> +0
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="Energy">
+                            <i class="fa fa-fw fa-bolt"></i> 0 (+0)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    Resources
+                </div>
+                <div class="col-6 col-md-10">
+                    <div class="no-break">
+                        <div data-toggle="tooltip" data-placement="top"title="<strong>Food</strong>: Needed for feeding the population.">
+                            <i class="fa fa-fw fa-seedling icon-food"></i> <span>1739 (+8)</span>
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="<strong>Ore</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-ore"></i> <span>265 (+5)</span>
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="<strong>Duranium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-duranium"></i> <span>160 (+5)</span>
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="<strong>Deuterium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-deuterium"></i> <span>52 (+2)</span>
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="<strong>Crystal</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-crystal"></i> <span>0 (+0)</span>
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="<strong>Dilithium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-dilithium"></i> <span>0 (+0)</span>
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="<strong>Iridium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-iridium"></i> <span>0 (+0)</span>
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="<strong>Tritanium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-tritanium"></i> <span>0 (+0)</span>
+                        </div>
+                        <div data-toggle="tooltip" data-placement="top" title="<strong>Trellium-D</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-trellium-d"></i> <span>0 (+0)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="corner-border-bottom"></span>
+    </div>
+    <div class="container-fluid table">
+        <div class="row d-none d-md-flex table-header">
+            <div class="col-md-2 table-cell">Class</div>
+            <div class="col-md-2 table-cell">Coordinates</div>
+            <div class="col-md-2 table-cell">Population</div>
+            <div class="col-md-2 table-cell">Status</div>
+            <div class="col-md table-cell">Resources</div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Class
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        <i class="fa fa-fw fa-globe"></i> M
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Coordinates
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                            178/39
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Population
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        991
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Colonized
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        Colonized<br>
+                        by Space Empire
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Resources
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                            <div class="row resources">
+                                <div class="col" data-toggle="tooltip" data-placement="top"title="<strong>Food</strong>: Needed for feeding the population.">
+                                    <i class="fa fa-fw fa-seedling icon-food"></i> <span>120%</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Ore</strong>: Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem icon-ore"></i> <span>100%</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Duranium</strong>: Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem icon-duranium"></i> <span>100%</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Deuterium</strong>: Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem icon-deuterium"></i> <span>100%</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Crystal</strong>: Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem icon-crystal"></i> <span>0%</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Dilithium</strong>: Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem icon-dilithium"></i> <span>0%</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Iridium</strong>: Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem icon-iridium"></i> <span>0%</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Tritanium</strong>: Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem icon-tritanium"></i> <span>0%</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Trellium-D</strong>: Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem icon-trellium-d"></i> <span>0%</span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Class
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        <i class="fa fa-fw fa-globe"></i> H
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Coordinates
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                            178/39
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Population
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        783
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Colonized
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        Not colonized
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                        Resources
+                    </div>
+                    <div class="col-6 col-md-12 table-cell">
+                        <div class="row resources">
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Food</strong>: Needed for feeding the population.">
+                                <i class="fa fa-fw fa-seedling icon-food"></i> <span>100%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Ore</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-ore"></i> <span>100%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Duranium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-duranium"></i> <span>100%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Deuterium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-deuterium"></i> <span>100%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Crystal</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-crystal"></i> <span>100%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Dilithium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-food"></i> <span>0%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Iridium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-iridium"></i> <span>0%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Tritanium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-tritanium"></i> <span>0%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Trellium-D</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-trellium-d"></i> <span>0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

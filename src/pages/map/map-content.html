@@ -1,0 +1,46 @@
+<div class="container">
+    <h1 class="headline-alert">Galaxy Map</h1>
+    <p>Map controls that can be used for navigating a map or other content.</p>
+    <hr>
+    <div class="row">
+        <div class="col-12 col-md-8">
+            <img src="${require('src/assets/media/milky-way-annotated.jpg')}" class="img-fluid convert-to-bg">
+            <div class="control-pad">
+                <i class="control-arrow fa fa-fw fa-arrow-up"></i>
+                <i class="control-arrow fa fa-fw fa-chevron-up"></i>
+                <i class="control-arrow fa fa-fw fa-arrow-right"></i>
+                <i class="control-arrow fa fa-fw fa-chevron-right"></i>
+                <i class="control-arrow fa fa-fw fa-arrow-down"></i>
+                <i class="control-arrow fa fa-fw fa-chevron-down"></i>
+                <i class="control-arrow fa fa-fw fa-arrow-left"></i>
+                <i class="control-arrow fa fa-fw fa-chevron-left"></i>
+            </div>
+            <p>
+                Image credits: NASA/JPL-Caltech
+            </p>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="form-group">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="scanRange" checked>
+                    <label class="form-check-label" for="scanRange"><i class="fa fa-check"></i> Show scan range</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="fuelRange">
+                    <label class="form-check-label" for="fuelRange"><i class="fa fa-check"></i> Show fuel range</label>
+                </div>
+            </div>
+            <form class="form-compact">
+                <div class="form-group">
+                    <label for="coordinateX">X-Axis</label>
+                    <input type="number" class="form-control" id="coordinateX">
+                </div>
+                <div class="form-group">
+                    <label for="coordinateY">Y-Axis</label>
+                    <input type="number" class="form-control" id="coordinateY">
+                </div>
+                <button class="btn btn-highlight">Go to coordinates</button>
+            </form>
+        </div>
+    </div>
+</div>

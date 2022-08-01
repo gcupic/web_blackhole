@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Orbit - Scifi Bootstrap 4 HTML Theme DOCUMENTATION</title>
+        <meta name="description" content="Orbit - Scifi Bootstrap 4 HTML Theme DOCUMENTATION" />
+        <meta name="author" content="Live Webagentur" />
+
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <header class="bg-primary text-center p-4 mb-5">
+            <h1 class="text-light">DOCUMENTATION</h1>
+        </header>
+        <div class="content container">
+            <h2>Orbit - Scifi Bootstrap 4 HTML Theme</h2>
+            <p>
+                This futuristic Scifi Theme based on Bootstrap 4 is set up with npm & webpack. It automatically compiles bootstrap
+                & the custom SCSS files.
+            </p>
+            <p>
+                Based on the Orbit UI Kit (you can buy it if you need the Photoshop files):
+                <a href="https://creativemarket.com/dannehr/163951-Orbit-SciFi-UI-Kit" target="_blank"
+                    >Orbit UI Kit on CreativeMarket</a
+                ><br />
+                Permission to use the design for a commercial theme was granted by the author.
+            </p>
+            <p>
+                Refer to the Bootstrap 4 documentatioon for detailed usage information for all elements:
+                <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank"
+                    >Bootstrap 4 Documentation</a
+                >
+            </p>
+            <h3>Distributable files</h3>
+            <p>
+                You can find the compiled files in the <strong>dist</strong> folder. These files are the files you use to add the
+                theme to your website.
+            </p>
+            <ul>
+                <li>
+                    <strong>index.html:</strong> You can open this file in a browser to see a demo website with many examples.
+                </li>
+                <li>
+                    <strong>app.css:</strong> This file includes all the fancy new styles and also the Bootstrap styles, so you
+                    don't have to include Bootstrap separately. (<a href="https://www.w3schools.com/CSS/css_howto.asp" target="_blank">How to include a CSS file</a>)
+                </li>
+                <li>
+                    <strong>app.js:</strong> This file includes some additional scripts and the Bootstrap scripts, so you don't
+                    have to include Bootstrap separately. (<a href="https://www.w3schools.com/js/js_whereto.asp" target="_blank">How to include a JS file</a>)
+                </li>
+                <li>
+                    <strong>Pro Font:</strong> The webfont (for numbers & special headlines) can be found in the folder
+                    "dist/assets/fonts".
+                </li>
+                <li><strong>Titillium:</strong> The webfont is added via Google Fonts.</li>
+                <li><strong>Font Awesome:</strong> This webfont is included as the icon font.</li>
+            </ul>
+            <h3>Source files</h3>
+            <p>
+                The source files can be found in the <strong>src</strong> folder. These files are used if you want to customize
+                the theme further. It requires some knowledge in HTML/CSS and the tools node.js & npm to work with those.
+            </p>
+            <ul>
+                <li><strong>index.js:</strong> Includes custom scripts.</li>
+                <li><strong>partials:</strong> Includes header, footer and meta sections which are used on all pages.</li>
+                <li>
+                    <strong>pages:</strong> Includes example pages and all Bootstrap components in the
+                    <strong>elements</strong> folder.
+                </li>
+                <li><strong>scss:</strong> Includes custom variables & styles.</li>
+            </ul>
+            <p>To work with the source files you need node.js & npm installed. Then follow the instructions below.</p>
+            <p>
+                If you are new to this, there are excellent tutorials online on how to set everything up on Linux, Windows or Mac.
+                Just search for "Install node.js and npm on Linux/Windows/Mac". 
+            </p>
+            <h4>Build setup</h4>
+            <p>
+                Open your console/terminal and use the following commands:
+            </p>
+            <code class="mb-4">
+                <span class="text-muted"># install dependencies<br /></span>
+                npm install<br />
+                <br />
+                <span class="text-muted"
+                    ># serve with hot reload at localhost:8080<br />
+                    # this port is often occupied, but you can use another port with the command below<br
+                /></span>
+
+                npm run dev<br />
+                <span class="text-muted"
+                    ># run with your own local domain & port (e.g. project-layout.local:5050)<br />
+                    # add your local domain to etc/hosts (e.g. project-layout.local)<br />
+                    # start with your desired port (e.g. 5050)<br
+                /></span>
+
+                npm run dev -- --open --port 5050<br />
+                <br />
+                <span class="text-muted"># build for production with minification<br /></span>
+                npm run build<br />
+                <br />
+                <span class="text-muted"># build for production and view the bundle analyzer report<br /></span>
+                npm run build --report
+            </code>
+            <hr>
+            <h3 class="h3">Image Credits</h3>
+            <p>All images used in the theme are properly licensed (Orbit UI Kit) or are free to use (NASA images).</p>
+            <ul>
+                <li>Logo: <a href="https://creativemarket.com/dannehr/163951-Orbit-SciFi-UI-Kit" target="_blank">Orbit UI Kit</a> (<a href="https://creativemarket.com/licenses/v2" target="_blank">Standard Licence</a>)</li>
+                <li>Background: <a href="https://creativemarket.com/dannehr/163951-Orbit-SciFi-UI-Kit" target="_blank">Orbit UI Kit</a> (<a href="https://creativemarket.com/licenses/v2" target="_blank">Standard Licence</a>)</li>
+                <li>All other images: NASA/JPL-Caltech (<a href="https://www.nasa.gov/multimedia/guidelines/index.html" target="_blank">Media Usage Guidelines</a>)</li>
+            </ul>
+        </div>
+        <footer class="bg-primary text-center p-3 mt-5">
+            <p class="text-light">&copy; Live Webagentur &ndash; All rights reserved.</p>
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

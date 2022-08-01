@@ -1,0 +1,434 @@
+<p id="navs" class="headline-layout">Navs (Tabs, Pills, etc.)</p>
+<p class="headline-layout small">Tabs</p>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#tab-1">Tab 1</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab-2">Tab 2</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab-3">Tab 3</a>
+    </li>
+</ul>
+<div class="tab-content mb-3">
+    <div class="tab-pane active" id="tab-1">
+        Tab content 1<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+    <div class="tab-pane" id="tab-2">
+        Tab content 2<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+    <div class="tab-pane" id="tab-3">
+        Tab content 3<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+</div>
+<p class="headline-layout small">Tabs (alternative design)</p>
+<ul class="nav nav-tabs nav-fill nav-tabs-alt">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#tab-alt-1">Tab 1</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab-alt-2">Tab 2</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab-alt-3">Tab 3</a>
+    </li>
+</ul>
+<div class="tab-content mb-3">
+    <div class="tab-pane active" id="tab-alt-1">
+        Tab content 1<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+    <div class="tab-pane" id="tab-alt-2">
+        Tab content 2<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+    <div class="tab-pane" id="tab-alt-3">
+        Tab content 3<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+</div>
+
+<p class="headline-layout small">Pills</p>
+<ul class="nav nav-pills mb-3">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#tab-11">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"  data-toggle="tab" href="#tab-22">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"  data-toggle="tab" href="#tab-33">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" data-toggle="tab" href="#tab-44" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+
+<p class="headline-layout small">Standard (horizontal & vertical)</p>
+<ul class="nav mb-3">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+<ul class="nav flex-column mb-3">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+
+<p class="headline-layout small">Navbars</p>
+<nav class="navbar navbar-light bg-primary navbar-expand-lg mb-3">
+    <a class="navbar-brand" href="#">
+        <img src="${require('src/assets/media/logo.png')}" alt="Logo" />
+        Navbar light
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown1" aria-controls="navbarNavDropdown1" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown1">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+<nav class="navbar navbar-dark navbar-expand-lg mb-3">
+    <a class="navbar-brand" href="#">
+        <img src="${require('src/assets/media/logo.png')}" alt="Logo" />
+        Navbar dark
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+    </div>
+</nav>
+<nav class="navbar navbar-dark bg-danger navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+        <img src="${require('src/assets/media/logo.png')}" alt="Logo" />
+        Navbar dark
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+    </div>
+</nav>
+
+<p class="headline-layout small">Megamenu & Game Info</p>
+<header>
+    <div class="container">
+        <div class="row top-bar">
+            <div class="col-12 col-md-10 order-md-2">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <div class="row">
+                        <div class="col-12 col-md-2">
+                            <strong>Imperium</strong>
+                        </div>
+                        <div class="col-12 col-md-10">
+                            <div class="row">
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Dilithium:</strong> Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem"></i> 100 (+0)
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Latinum:</strong> Needed for buying stuff.">
+                                    <i class="fa fa-fw fa-coins"></i> 750 (-34)
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Fuel</strong>: Needed for flying around.">
+                                    <i class="fa fa-fw fa-fire"></i> 2500 (+0)
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Research</strong>: Needed for inventing new stuff.">
+                                    <i class="fa fa-fw fa-flask"></i> +3
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Planets</strong>: The number of planets you own.">
+                                    <i class="fa fa-fw fa-globe"></i> 2
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Ticks</strong>: Tick count - basically your empire's age - and the universe's age in brackets.">
+                                    <i class="fa fa-fw fa-clock"></i> 92 (7348)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-1">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <a href="/"><img src="${require('src/assets/media/logo.png')}" alt="Logo" class="img-fluid logo" /></a>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-3">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <button class="main-menu-toggle collapsed" type="button" data-toggle="collapse" href="#mega-menu"><i class="fa fa-bars"></i></button>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mega-menu" class="collapse megamenu">
+        <div class="container">
+            <div class="menu-card">
+                <div class="row">
+                    <div class="col-6 col-md">
+                        <p class="headline3">Empire</p>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu" class="link-active">Research</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Diplomacy</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Messages</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Planets</p>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Overview</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Construction</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Buildings</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Galaxy</p>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Map</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Surveyed Systems</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Ships</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Fleets</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Profile</p>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">User Name</a>
+                    </div>
+                    <div class="col-12 col-md align-self-end text-right">
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu" class="headline3">Logout <i class="fa fa-fw fa-sign-out-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card compact">
+            <span class="corner-border-top"></span>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        <strong>Active planet:</strong>
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <form class="form-simple">
+                            <select class="form-control dropdown-small selectpicker" data-style="btn-primary">
+                                <option>Planet Prime</option>
+                                <option>Planet Omega</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        Class
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <div class="no-break">
+                            <div data-toggle="tooltip" data-placement="top" title="Planet's class and subclass in brackets.">
+                                <i class="fa fa-fw fa-globe"></i> M (Marshland)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        Population
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <div class="no-break">
+                            <div data-toggle="tooltip" data-placement="top" title="Current population / Maximum population (+ Growth)">
+                                <i class="fa fa-fw fa-users"></i> 376/1250 (+1)
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Unemployed workers.">
+                                <i class="fa fa-fw fa-user-clock"></i> 7
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        Production
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <div class="no-break">
+                            <div data-toggle="tooltip" data-placement="top" title="Construction">
+                                <i class="fa fa-fw fa-wrench"></i> +10
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Shipyard">
+                                <i class="fa fa-fw fa-rocket"></i> +0
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Barracks">
+                                <i class="fa fa-fw fa-user-astronaut"></i> +0
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Latinum">
+                                <i class="fa fa-fw fa-coins"></i> -11
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Fuel">
+                                <i class="fa fa-fw fa-fire"></i> +0
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Energy">
+                                <i class="fa fa-fw fa-bolt"></i> 0 (+0)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        Resources
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <div class="no-break">
+                            <div data-toggle="tooltip" data-placement="top"title="<strong>Food</strong>: Needed for feeding the population.">
+                                <i class="fa fa-fw fa-seedling icon-food"></i> <span>1739 (+8)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Ore</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-ore"></i> <span>265 (+5)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Duranium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-duranium"></i> <span>160 (+5)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Deuterium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-deuterium"></i> <span>52 (+2)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Crystal</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-crystal"></i> <span>0 (+0)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Dilithium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-dilithium"></i> <span>0 (+0)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Iridium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-iridium"></i> <span>0 (+0)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Tritanium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-tritanium"></i> <span>0 (+0)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Trellium-D</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-trellium-d"></i> <span>0 (+0)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="corner-border-bottom"></span>
+        </div>
+    </div>
+</header>

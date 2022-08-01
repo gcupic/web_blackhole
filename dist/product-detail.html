@@ -1,0 +1,461 @@
+<!doctype html>
+<htm lang="en">
+
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Orbit - Scifi Bootstrap 4 HTML Theme DEMO</title>
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,700,700i" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.png"><link href="app.css" rel="stylesheet"></head>
+
+<body>
+    <header>
+    <div class="container">
+        <div class="row top-bar">
+            <div class="col-12 col-md-10 order-md-2">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <h3 class="headline3">Orbit - Scifi Bootstrap 4 HTML Theme DEMO</h3>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-1">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <a href="/"><img src="assets/media/logo.png" alt="Logo" class="img-fluid logo" /></a>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-3">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <button class="main-menu-toggle collapsed" type="button" data-toggle="collapse" href="#main-menu"><i class="fa fa-bars"></i></button>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-menu" class="collapse megamenu">
+        <div class="container">
+            <div class="menu-card">
+                <div class="row">
+                    <div class="col-6 col-md">
+                        <p class="headline3">General Examples</p>
+                        <a href="/elements.html">Elements</a>
+                        <a href="/contact.html">Contact</a>
+                        <a href="/contact-compact.html">Contact (compact)</a>
+                        <a href="/landing-page.html">Landing Page</a>
+                        <a href="/message-detail.html">Message Detail</a>
+                        <a href="/message-list.html">Message List</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Image Examples</p>
+                        <a href="/carousel.html">Carousels</a>
+                        <a href="/gallery-grid.html">Gallery Grid</a>
+                        <a href="/gallery-masonry.html">Gallery Masonry</a>
+                        <a href="/parallax-image.html">Parallax Image</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Blog Examples</p>
+                        <a href="/blog-detail.html"row with-sidebar>Blog Detail</a>
+                        <a href="/blog-grid.html"row with-sidebar>Blog Grid</a>
+                        <a href="/blog-large-image.html"row with-sidebar>Blog Large Image</a>
+                        <a href="/blog-list.html"row with-sidebar>Blog List</a>
+                        <a href="/blog-masonry.html"row with-sidebar>Blog Masonry</a>
+                        <a href="/blog-sidebar.html"row with-sidebar>Blog Sidebar</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Game Examples</p>
+                        <a href="/map.html">Galaxy Map</a>
+                        <a href="/research.html">Research</a>
+                        <a href="/resources.html">Resources</a>
+                        <a href="/profile.html">User Profile</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Other Examples</p>
+                        <a href="/faq.html">FAQ</a>
+                        <a href="/product-detail.html">Product Detail</a>
+                        <a href="/product-list.html">Product List</a>
+                        <a href="/cart.html">Shopping Cart</a>
+                        <a href="/testimonials.html">Testimonials</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <div class="container">
+    <h1 class="headline-alert">Product detail</h1>
+    <p>A product detail page with gallery, main info, product options & additional info and reviews in tabs. You can also display related products within a carousel.</p>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col gallery mb-5">
+            <div id="productCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#productCarousel" data-slide-to="0" class=""></li>
+                  <li data-target="#productCarousel" data-slide-to="1" class=""></li>
+                  <li data-target="#productCarousel" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="col product-info mb-5">
+            <h1 class="headline1 mb-5">Carina Space Nebula Print</h1>
+            <p class="lead mb-5">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-4 buy-box text-right">
+                    <h2 class="h3 text-muted">from 19,90 €</h2>
+                    <div class="form-group text-left">
+                        <label>Material</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" value="glossy-paper" id="material-glossy-paper" name="material-choice" checked>
+                            <label class="form-check-label" for="material-glossy-paper">
+                                <i class="fa fa-circle"></i> Glossy Paper
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" value="matte-paper" id="material-matte-paper" name="material-choice">
+                            <label class="form-check-label" for="material-matte-paper">
+                                <i class="fa fa-circle"></i> Matte Paper
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" value="structured-paper" id="material-structured-paper" name="material-choice">
+                            <label class="form-check-label" for="material-structured-paper">
+                                <i class="fa fa-circle"></i> Structured Paper
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" value="canvas" id="material-canvas" name="material-choice">
+                            <label class="form-check-label" for="material-canvas">
+                                <i class="fa fa-circle"></i> Canvas
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group text-left">
+                        <label for="size-choice">Size</label>
+                        <select id="size-choice" class="form-control selectpicker" data-style="btn-highlight">
+                            <option>DIN A1</option>
+                            <option>DIN A2</option>
+                            <option>DIN A3</option>
+                            <option>DIN A4</option>
+                            <option>DIN A5</option>
+                            <option>DIN A6</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-highlight"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="additional-info">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#description">Description</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#specifications">Specifications</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#reviews">Reviews</a>
+            </li>
+        </ul>
+        <div class="tab-content mb-3">
+            <div class="tab-pane active" id="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <P>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</P>
+            </div>
+            <div class="tab-pane" id="specifications">
+                <table class="table">
+                    <tr>
+                        <td class="font-weight-bold">Available Materials</td>
+                        <td>Glossy Paper, Matte Paper, Structured Paper, Canvas</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold">Available Sizes</td>
+                        <td>DIN A1, DIN A2, DIN A3, DIN A4, DIN A5, DIN A6</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold">Print Quality</td>
+                        <td>Digital (< 100 pieces), Offset (100+ pieces)</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab-pane" id="reviews">
+                <div class="card solid">
+                    <div class="card-header">
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        &nbsp;Lorem ipsum
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <div class="avatar mr-2">
+                            <img src="assets/media/hubble-carina-nebula-square.jpg">
+                        </div>
+                        &ndash; a satisfied customer
+                    </div>
+                </div>
+                <div class="card solid">
+                    <div class="card-header">
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star-half"></i>
+                        &nbsp;Lorem ipsum
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <div class="avatar mr-2">
+                            <img src="assets/media/hubble-carina-nebula-square.jpg">
+                        </div>
+                        &ndash; a satisfied customer
+                    </div>
+                </div>
+                <div class="card solid">
+                    <div class="card-header">
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        <i class="fa fa-fw fa-star"></i>
+                        &nbsp;Lorem ipsum
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <div class="avatar mr-2">
+                            <img src="assets/media/hubble-carina-nebula-square.jpg">
+                        </div>
+                        &ndash; a satisfied customer
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="related-products">
+        <h3 class="headline2">Related products</h3>
+        <div id="carouselRelated" class="carousel slide mb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li
+                    data-target="#carouselRelated"
+                    data-slide-to="0"
+                    class="active"
+                ></li>
+                <li data-target="#carouselRelated" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col mb-3"><!--mb-3: Fix for card height 100% issue with margin-->
+                            <div class="card h-100 mb-0"><!--mb-0: Fix for card height 100% issue with margin-->
+                                <span class="corner-border-top"></span>
+                                <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carina Nebula Print</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">from 19,90 €</h6>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                                <span class="corner-border-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a
+                class="carousel-control-prev"
+                href="#carouselRelated"
+                role="button"
+                data-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a
+                class="carousel-control-next"
+                href="#carouselRelated"
+                role="button"
+                data-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <button id="back-to-top" class="btn btn-highlight" role="button">
+    <span class="fa fa-chevron-up"></span>
+</button>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-2 order-md-2">
+                <div class="dropdown dropdown-small">
+                    <button class="btn btn-highlight dropdown-toggle" type="button" data-toggle="dropdown">
+                        <i class="fa fa-fw fa-flag"></i> DE
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-flag"></i> DE</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-flag"></i> EN</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2 order-md-3 text-right">
+                <a type="button" data-toggle="modal" data-target="#imprintModal">
+                    Imprint
+                </a>
+                <div id="imprintModal" class="modal modal-primary fade" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header main">
+                                <p class="modal-title headline-alert">Imprint</p>
+                                <button class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-header">
+                                <p class="modal-title">Live Webagentur</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Sara Geller<br />
+                                    6800 Feldkirch<br />
+                                    Austria
+                                </p>
+                                <p>
+                                    Email: info@live-webagentur.eu<br />
+                                    Phone: +43 677 61 3344 87<br />
+                                    Website: www.live-webagentur.eu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 order-md-1">
+                &copy; Live Webagentur &ndash; All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="index.app.js"></script></body>
+
+</html>

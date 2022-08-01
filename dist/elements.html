@@ -1,0 +1,3334 @@
+<!doctype html>
+<htm lang="en">
+
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Orbit - Scifi Bootstrap 4 HTML Theme DEMO</title>
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,700,700i" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.png"><link href="app.css" rel="stylesheet"></head>
+
+<body>
+    <header>
+    <div class="container">
+        <div class="row top-bar">
+            <div class="col-12 col-md-10 order-md-2">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <h3 class="headline3">Orbit - Scifi Bootstrap 4 HTML Theme DEMO</h3>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-1">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <a href="/"><img src="assets/media/logo.png" alt="Logo" class="img-fluid logo" /></a>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-3">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <button class="main-menu-toggle collapsed" type="button" data-toggle="collapse" href="#main-menu"><i class="fa fa-bars"></i></button>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-menu" class="collapse megamenu">
+        <div class="container">
+            <div class="menu-card">
+                <div class="row">
+                    <div class="col-6 col-md">
+                        <p class="headline3">General Examples</p>
+                        <a href="/elements.html">Elements</a>
+                        <a href="/contact.html">Contact</a>
+                        <a href="/contact-compact.html">Contact (compact)</a>
+                        <a href="/landing-page.html">Landing Page</a>
+                        <a href="/message-detail.html">Message Detail</a>
+                        <a href="/message-list.html">Message List</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Image Examples</p>
+                        <a href="/carousel.html">Carousels</a>
+                        <a href="/gallery-grid.html">Gallery Grid</a>
+                        <a href="/gallery-masonry.html">Gallery Masonry</a>
+                        <a href="/parallax-image.html">Parallax Image</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Blog Examples</p>
+                        <a href="/blog-detail.html"row with-sidebar>Blog Detail</a>
+                        <a href="/blog-grid.html"row with-sidebar>Blog Grid</a>
+                        <a href="/blog-large-image.html"row with-sidebar>Blog Large Image</a>
+                        <a href="/blog-list.html"row with-sidebar>Blog List</a>
+                        <a href="/blog-masonry.html"row with-sidebar>Blog Masonry</a>
+                        <a href="/blog-sidebar.html"row with-sidebar>Blog Sidebar</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Game Examples</p>
+                        <a href="/map.html">Galaxy Map</a>
+                        <a href="/research.html">Research</a>
+                        <a href="/resources.html">Resources</a>
+                        <a href="/profile.html">User Profile</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Other Examples</p>
+                        <a href="/faq.html">FAQ</a>
+                        <a href="/product-detail.html">Product Detail</a>
+                        <a href="/product-list.html">Product List</a>
+                        <a href="/cart.html">Shopping Cart</a>
+                        <a href="/testimonials.html">Testimonials</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <div class="container">
+    <p class="headline-layout">Table of Contents</p>
+    <ul class="list-layout list-unstyled">
+        <li><a href="#fonts-colors">Fonts & Colors</a></li>
+        <li><a href="#containers-backgrounds">Containers & Backgrounds</a></li>
+        <li><a href="#alerts">Alerts</a></li>
+        <li><a href="#badges">Badges</a></li>
+        <li><a href="#breadcrumbs">Breadcrumbs</a></li>
+        <li><a href="#buttons-links">Buttons & Links</a></li>
+        <li><a href="#cards">Cards</a></li>
+        <li><a href="#carousel">Carousel</a></li>
+        <li><a href="#accordion">Collapse / Accordion</a></li>
+        <li><a href="#dropdowns">Dropdowns</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#input-groups">Input groups</a></li>
+        <li><a href="#jumbotron">Jumbotron</a></li>
+        <li><a href="#list-groups">List groups</a></li>
+        <li><a href="#modals">Modals</a></li>
+        <li><a href="#navs">Navs (Tabs, Pills, Navbar, Megamenu)</a></li>
+        <li><a href="#pagination">Pagination</a></li>
+        <li><a href="#popovers-tooltips">Popovers & Tooltips</a></li>
+        <li><a href="#progress">Progress bars</a></li>
+        <li><a href="#spinners">Spinners</a></li>
+        <li><a href="#toasts">Toasts</a></li>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#map">Galaxy Map Controls</a></li>
+        <li><a href="#image-utilities">Image Utilities</a></li>
+    </ul>
+    
+    <p id="fonts-colors" class="headline-layout">Fonts & Colors</p>
+
+<p class="headline1">Headline 1</p>
+<p class="headline2">Headline 2</p>
+<p class="headline3">Headline 3</p>
+<p>Normal text. Or <strong>bold</strong> and <i>italic</i>.</p>
+<p>
+    And <span class="text-success">success</span>, <span class="text-warning">warning</span>, <span class="text-danger">danger</span> and <span class="text-highlight">highlight</span> colors.<br>
+    You can also use <span class="bg-light"><span class="text-dark">dark</span></span> & <span class="text-light">light</span>.<br>
+    The Bootstrap contextual colors <span class="text-secondary">secondary</span> & <span class="text-info">info</span> default either to the highlight or the primary color.
+</p>
+<p class="text-small">And some small text.</p>
+<p class="headline-alert text-danger">Headline Alert</p>
+<p class="number-large">1234567890</p>
+<p class="number-small">1234567890</p>
+<p class="headline-layout small">Font Awesome icon font</p>
+<p>
+    Use <strong>fa fa-icon</strong> or <strong>fas fa-icon</strong> as a class for solid icons: <i class="fa fa-virus"></i> <i class="fas fa-virus"></i></br>
+    <strong>far fa-icon</strong> for regular icons: <i class="far fa-angry"></i></br>
+    And <strong>fab fa-icon</strong> for brand icons: <i class="fab fa-facebook"></i></br>
+    This is how an unknown icon looks: <i class="fa fa-facebook"></i><br>
+    And animated icons: <i class="fa fa-cog fa-spin"></i> <i class="fa fa-cog slow-spin"></i>
+</p>
+
+<p class="headline-layout small">Bootstrap typography</p>
+
+<div class="accordion" id="bootstrapTypography">
+    <div class="card">
+        <div class="card-header" id="bootstrapTypographyH">
+            <button class="btn btn-block btn-link" type="button" data-toggle="collapse" data-target="#bootstrapTypographyC" aria-expanded="false" aria-controls="bootstrapTypographyC">
+                Standard Bootstrap Typography
+                <i class="fa fa-fw fa-chevron-up"></i>
+                <i class="fa fa-fw fa-chevron-down"></i>
+            </button>
+        </div>
+        <div id="bootstrapTypographyC" class="collapse" aria-labelledby="bootstrapTypographyH" data-parent="#bootstrapTypography">
+            <div class="card-body">
+                <p class="headline-layout small">General Typography</p>
+                <p class="h1">h1. Bootstrap heading</p>
+                <p class="h2">h2. Bootstrap heading</p>
+                <p class="h3">h3. Bootstrap heading</p>
+                <p class="h4">h4. Bootstrap heading</p>
+                <p class="h5">h5. Bootstrap heading</p>
+                <p class="h6">h6. Bootstrap heading</p>
+                <h3>
+                    Fancy display heading
+                    <small class="text-muted">With faded secondary text</small>
+                </h3>
+                <h1 class="display-1">Display 1</h1>
+                <h1 class="display-2">Display 2</h1>
+                <h1 class="display-3">Display 3</h1>
+                <h1 class="display-4">Display 4</h1>
+                <p class="lead">
+                    Lead text: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+                </p>
+                <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+                <p><del>This line of text is meant to be treated as deleted text.</del></p>
+                <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+                <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+                <p><u>This line of text will render as underlined</u></p>
+                <p><small>This line of text is meant to be treated as fine print.</small></p>
+                <p><strong>This line rendered as bold text.</strong></p>
+                <p><em>This line rendered as italicized text.</em></p>
+                <p><abbr title="attribute">attr</abbr></p>
+                <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+                <p class="headline-layout small">Blockquotes</p>
+                <blockquote class="blockquote">
+                    <p class="mb-0">Blockquote: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">Blockquote center: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+                <blockquote class="blockquote text-right">
+                    <p class="mb-0">Blockquote right: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+                <p class="headline-layout small">Lists</p>
+                <ul>
+                    <li>List</li>
+                    <li>Consectetur adipiscing elit</li>
+                    <li>Integer molestie lorem at massa</li>
+                    <li>Facilisis in pretium nisl aliquet</li>
+                    <li>Nulla volutpat aliquam velit
+                        <ul>
+                            <li>Sublist</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                        </ul>
+                    </li>
+                    <li>Faucibus porta lacus fringilla vel</li>
+                    <li>Aenean sit amet erat nunc</li>
+                    <li>Eget porttitor lorem</li>
+                </ul>
+                <ul class="list-unstyled">
+                    <li>List unstyled</li>
+                    <li>Consectetur adipiscing elit</li>
+                    <li>Integer molestie lorem at massa</li>
+                    <li>Facilisis in pretium nisl aliquet</li>
+                    <li>Nulla volutpat aliquam velit
+                        <ul>
+                            <li>Sublist gets styles</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                        </ul>
+                    </li>
+                    <li>Faucibus porta lacus fringilla vel</li>
+                    <li>Aenean sit amet erat nunc</li>
+                    <li>Eget porttitor lorem</li>
+                </ul>
+                <ul class="list-inline">
+                    <li class="list-inline-item">List inline</li>
+                    <li class="list-inline-item">Phasellus iaculis</li>
+                    <li class="list-inline-item">Nulla volutpat</li>
+                </ul>
+                <p class="headline-layout small">Code</p>
+                For example, <code>&lt;section&gt;</code> should be wrapped as inline code.
+                <pre>
+                    <code>
+                        &lt;p&gt;Code block here...&lt;/p&gt;
+                        &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+                    </code>
+                </pre>
+                <p>
+                    Variable: <var>y</var> = <var>m</var><var>x</var> + <var>b</var>
+                </p>
+                <p>
+                    <samp>This text is meant to be treated as sample output from a computer program.</samp>
+                </p>
+                <p>
+                    Keyboard input:<br>
+                    To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+                    To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <p id="containers-backgrounds" class="headline-layout">Containers & Backgrounds</p>
+<div class="container-fullwidth bg-primary">
+    <div class="container">
+        <p class="headline2">bg-primary</p>
+        <p>
+            You can also get an element to span the whole viewport width with <strong>container-fullwidth</strong>.</br>
+            Here it is used to create a fullwidth background and container-width text.
+        </p>
+    </div>
+</div>
+<div class="container-fullwidth bg-highlight">
+    <div class="container">
+        <p class="headline2">bg-highlight</p>
+        <p>
+            You can also get an element to span the whole viewport width with <strong>container-fullwidth</strong>.</br>
+            Here it is used to create a fullwidth background and container-width text.
+        </p>
+    </div>
+</div>
+<div class="container-fullwidth bg-success">
+    <div class="container">
+        <p class="headline2">bg-success</p>
+        <p>
+            You can also get an element to span the whole viewport width with <strong>container-fullwidth</strong>.</br>
+            Here it is used to create a fullwidth background and container-width text.
+        </p>
+    </div>
+</div>
+<div class="container-fullwidth bg-warning">
+    <div class="container">
+        <p class="headline2">bg-warning</p>
+        <p>
+            You can also get an element to span the whole viewport width with <strong>container-fullwidth</strong>.</br>
+            Here it is used to create a fullwidth background and container-width text.
+        </p>
+    </div>
+</div>
+<div class="container-fullwidth bg-danger">
+    <div class="container">
+        <p class="headline2">bg-danger</p>
+        <p>
+            You can also get an element to span the whole viewport width with <strong>container-fullwidth</strong>.</br>
+            Here it is used to create a fullwidth background and container-width text.
+        </p>
+    </div>
+</div>
+<div class="container-fullwidth bg-light">
+    <div class="container">
+        <p class="headline2">bg-light</p>
+        <p>
+            You can also get an element to span the whole viewport width with <strong>container-fullwidth</strong>.</br>
+            Here it is used to create a fullwidth background and container-width text.
+        </p>
+    </div>
+</div>
+<div class="container-fullwidth bg-dark">
+    <div class="container">
+        <p class="headline2">bg-dark</p>
+        <p>
+            You can also get an element to span the whole viewport width with <strong>container-fullwidth</strong>.</br>
+            Here it is used to create a fullwidth background and container-width text.
+        </p>
+    </div>
+</div>
+
+    <p id="alerts" class="headline-layout">Alerts</p>
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <span class="corner-border-top"></span>
+    <p class="alert-heading">Primary!</p>
+    <hr>
+    <p>Primary alert: <a href="#" class="alert-link">Alert Link</a></p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <span class="corner-border-bottom"></span>
+</div>
+<div class="alert alert-highlight alert-dismissible fade show" role="alert">
+    <span class="corner-border-top"></span>
+    <p class="alert-heading">Highlight!</p>
+    <hr>
+    <p>Highlight alert: <a href="#" class="alert-link">Alert Link</a></p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <span class="corner-border-bottom"></span>
+</div>
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+    <span class="corner-border-top"></span>
+    <p class="alert-heading">Success!</p>
+    <hr>
+    <p>Success alert: <a href="#" class="alert-link">Alert Link</a></p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <span class="corner-border-bottom"></span>
+</div>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <span class="corner-border-top"></span>
+    <p class="alert-heading">Warning!</p>
+    <hr>
+    <p>Warning alert: <a href="#" class="alert-link">Alert Link</a></p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <span class="corner-border-bottom"></span>
+</div>
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <span class="corner-border-top"></span>
+    <p class="alert-heading">Danger!</p>
+    <hr>
+    <p>Warning alert: <a href="#" class="alert-link">Alert Link</a></p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <span class="corner-border-bottom"></span>
+</div>
+<div class="alert alert-light alert-dismissible fade show" role="alert">
+    <span class="corner-border-top"></span>
+    <p class="alert-heading">Light!</p>
+    <hr>
+    <p>Warning alert: <a href="#" class="alert-link">Alert Link</a></p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <span class="corner-border-bottom"></span>
+</div>
+
+    <p id="badges" class="headline-layout">Badges</p>
+<h1>Example heading <span class="badge badge-secondary">New</span></h1>
+<h2>Example heading <span class="badge badge-secondary">New</span></h2>
+<h3>Example heading <span class="badge badge-secondary">New</span></h3>
+<h4>Example heading <span class="badge badge-secondary">New</span></h4>
+<h5>Example heading <span class="badge badge-secondary">New</span></h5>
+<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+<button type="button" class="btn btn-primary">
+    Notifications <span class="badge badge-light">4</span>
+</button>
+<button type="button" class="btn btn-primary">
+    Messages <span class="badge badge-pill badge-light">9</span>
+</button>
+<p>
+    <span class="badge badge-primary">Primary</span>
+    <span class="badge badge-secondary">Secondary</span>
+    <span class="badge badge-highlight">Highlight</span>
+    <span class="badge badge-success">Success</span>
+    <span class="badge badge-danger">Danger</span>
+    <span class="badge badge-warning">Warning</span>
+    <span class="badge badge-info">Info</span>
+    <span class="badge badge-light">Light</span>
+    <span class="badge badge-dark">Dark</span>
+</p>
+<p>
+    <span class="badge badge-pill badge-primary">Primary</span>
+    <span class="badge badge-pill badge-secondary">Secondary</span>
+    <span class="badge badge-pill badge-highlight">Highlight</span>
+    <span class="badge badge-pill badge-success">Success</span>
+    <span class="badge badge-pill badge-danger">Danger</span>
+    <span class="badge badge-pill badge-warning">Warning</span>
+    <span class="badge badge-pill badge-info">Info</span>
+    <span class="badge badge-pill badge-light">Light</span>
+    <span class="badge badge-pill badge-dark">Dark</span>
+</p>
+<p>
+    <a href="#" class="badge badge-primary">Primary</a>
+    <a href="#" class="badge badge-secondary">Secondary</a>
+    <a href="#" class="badge badge-highlight">Highlight</a>
+    <a href="#" class="badge badge-success">Success</a>
+    <a href="#" class="badge badge-danger">Danger</a>
+    <a href="#" class="badge badge-warning">Warning</a>
+    <a href="#" class="badge badge-info">Info</a>
+    <a href="#" class="badge badge-light">Light</a>
+    <a href="#" class="badge badge-dark">Dark</a>
+</p>
+
+    <p id="breadcrumbs" class="headline-layout">Breadcrumbs</p>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+</nav>
+
+    <p id="buttons-links" class="headline-layout">Buttons & Links</p>
+
+<button class="btn btn-primary">Standard button</button>
+<button class="btn btn-outline-primary">Outline button</button>
+<button class="btn btn-primary btn-rounded">Rounded button</button>
+<button class="btn btn-link">Link button</button>
+</br>
+<button class="btn btn-highlight">Standard button</button>
+<button class="btn btn-outline-highlight">Outline button</button>
+<button class="btn btn-highlight btn-rounded">Rounded button</button>
+<button class="btn btn-link text-highlight">Link button</button>
+</br>
+<button class="btn btn-success">Standard button</button>
+<button class="btn btn-outline-success">Outline button</button>
+<button class="btn btn-success btn-rounded">Rounded button</button>
+<button class="btn btn-link text-success">Link button</button>
+</br>
+<button class="btn btn-warning">Standard button</button>
+<button class="btn btn-outline-warning">Outline button</button>
+<button class="btn btn-warning btn-rounded">Rounded button</button>
+<button class="btn btn-link text-warning">Link button</button>
+</br>
+<button class="btn btn-danger">Standard button</button>
+<button class="btn btn-outline-danger">Outline button</button>
+<button class="btn btn-danger btn-rounded">Rounded button</button>
+<button class="btn btn-link text-danger">Link button</button>
+</br>
+<button class="btn btn-light">Standard button</button>
+<button class="btn btn-outline-light">Outline button</button>
+<button class="btn btn-light btn-rounded">Rounded button</button>
+<button class="btn btn-link text-light">Link button</button>
+</br>
+<div class="bg-light pt-3 px-3">
+    <button class="btn btn-dark">Standard button</button>
+    <button class="btn btn-outline-dark">Outline button</button>
+    <button class="btn btn-dark btn-rounded">Rounded button</button>
+    <button class="btn btn-link text-dark">Link button</button>
+</div>
+</br>
+<button class="btn btn-primary" disabled>Disabled standard button</button>
+<button class="btn btn-outline-primary" disabled>Disabled outline button</button>
+<button class="btn btn-primary btn-rounded" disabled>Disabled rounded button</button>
+<button class="btn btn-link" disabled>Disabled link button</button>
+
+<p class="headline-layout small">Icon buttons</p>
+<button class="btn btn-danger btn-icon"><i class="fa fa-fw fa-trash"></i></button>
+<button class="btn btn-outline-highlight btn-icon"><i class="fa fa-fw fa-eye"></i></button>
+<button class="btn btn-success btn-rounded btn-icon"><i class="fa fa-fw fa-check"></i></button>
+
+<p class="headline-layout small">Small & large buttons</p>
+<button class="btn btn-sm btn-highlight"><i class="fa fa-fw fa-eye"></i></button>
+<button class="btn btn-sm btn-outline-highlight"><i class="fa fa-fw fa-eye"></i></button>
+<button class="btn btn-sm btn-highlight btn-rounded"><i class="fa fa-fw fa-eye"></i></button>
+<button class="btn btn-sm btn-danger"><i class="fa fa-fw fa-eye"></i> With text</button>
+<button class="btn btn-sm btn-outline-success btn-rounded"><i class="fa fa-fw fa-eye"></i> With text</button>
+<button class="btn btn-sm btn-success btn-rounded"><i class="fa fa-fw fa-eye"></i> With text</button>
+<br>
+<button class="btn btn-lg btn-highlight"><i class="fa fa-fw fa-eye"></i></button>
+<button class="btn btn-lg btn-outline-highlight"><i class="fa fa-fw fa-eye"></i></button>
+<button class="btn btn-lg btn-highlight btn-rounded"><i class="fa fa-fw fa-eye"></i></button>
+<button class="btn btn-lg btn-danger"><i class="fa fa-fw fa-eye"></i> With text</button>
+<button class="btn btn-lg btn-outline-success btn-rounded"><i class="fa fa-fw fa-eye"></i> With text</button>
+<button class="btn btn-lg btn-success btn-rounded"><i class="fa fa-fw fa-eye"></i> With text</button>
+
+<p class="headline-layout small">Text Links</p>
+<a href="#" class="text-link">Normal link</a></br>
+<a href="#" class="text-link link-active">Active link</a>
+
+<p class="headline-layout small">Button groups</p>
+<div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-highlight">Left</button>
+    <button type="button" class="btn btn-highlight">Middle</button>
+    <button type="button" class="btn btn-highlight">Right</button>
+</div>
+<br>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-highlight">Left</button>
+    <button type="button" class="btn btn-highlight">Middle</button>
+    <button type="button" class="btn btn-highlight">Right</button>
+</div>
+<br>
+<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-highlight">Left</button>
+    <button type="button" class="btn btn-highlight">Middle</button>
+    <button type="button" class="btn btn-highlight">Right</button>
+</div>
+<br>
+<div class="btn-group-vertical btn-group-sm" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-highlight">Top</button>
+    <button type="button" class="btn btn-highlight">Middle</button>
+    <button type="button" class="btn btn-highlight">Bottom</button>
+</div>
+<div class="btn-group-vertical" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-highlight">Top</button>
+    <button type="button" class="btn btn-highlight">Middle</button>
+    <button type="button" class="btn btn-highlight">Bottom</button>
+</div>
+<div class="btn-group-vertical btn-group-lg" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-highlight">Top</button>
+    <button type="button" class="btn btn-highlight">Middle</button>
+    <button type="button" class="btn btn-highlight">Bottom</button>
+</div>
+
+    <p id="cards" class="headline-layout">Cards</p>
+<div class="card">
+    <span class="corner-border-top"></span>
+    <div class="card-body">
+        <strong>Standard card.</strong><br>
+        The standard card features a gradient from top to bottom and you can add optional highlights to the corners.
+    </div>
+    <span class="corner-border-bottom"></span>
+</div>
+<div class="card notice">
+    <div class="card-body">
+        <strong>Notice card.</strong><br>
+        The notice card fades to black toward the right, but is held together by a strong border at the bottom.
+    </div>
+</div>
+<div class="card solid">
+    <span class="corner-border-top line"></span>
+    <div class="card-body">
+        <strong>Solid card.</strong><br>
+        The solid card has a transparent background without a gradient. It also shows alternative line shaped corner highlights.
+    </div>
+    <span class="corner-border-bottom line"></span>
+</div>
+
+<p class="headline-layout small">Cards with images & other elements</p>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">
+        <div class="card">
+            <span class="corner-border-top"></span>
+            <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+            <div class="card-body">
+                <h5 class="card-title">Carina Nebula</h5>
+                <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+            <span class="corner-border-bottom"></span>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card notice">
+            <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+            <div class="card-body">
+                <h5 class="card-title">Carina Nebula</h5>
+                <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid">
+            <span class="corner-border-top line"></span>
+            <img src="assets/media/hubble-carina-nebula-portrait.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Card Overlay</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Text on top of the image</h6>
+                <p class="card-text">The card overlay places the text on top of the image.</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+            <div class="card-body">
+                <p class="card-text">You can still use card-body, but it will be below the card overlay, so buttons won't work.</p>
+                <a href="#" class="btn btn-primary">You can't click me</a>
+            </div>
+            <span class="corner-border-bottom line"></span>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Carina Nebula</h5>
+                <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+            <div class="card-footer small text-muted">
+                5 days ago
+            </div>
+        </div>
+    </div>
+</div>
+
+<p class="headline-layout small">Horizontal cards</p>
+<p>You can use the <strong>.convert-to-bg</strong> class on images in horizontal cards, so they always fill up the available space (parts of the image may be cut off).</p>
+
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-6">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top convert-to-bg" alt="Carina Nebula captured by the Hubble Space Telescope">
+                    <div class="card-img-overlay small">
+                        (c) NASA
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Carina Nebula</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                        <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                        <a href="#" class="btn btn-primary mb-0">Read more</a>
+                    </div>
+                    <div class="card-footer small text-muted">
+                        5 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-6">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-4">
+                    <img src="assets/media/hubble-carina-nebula-portrait.jpg" class="card-img-top convert-to-bg" alt="Carina Nebula captured by the Hubble Space Telescope">
+                    <div class="card-img-overlay small">
+                        (c) NASA
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Carina Nebula</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                        <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                        <a href="#" class="btn btn-primary mb-0">Read more</a>
+                    </div>
+                    <div class="card-footer small text-muted">
+                        5 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p class="headline-layout small">Colored cards</p>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5">
+    <div class="col">
+        <div class="card solid bg-primary">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-primary</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-primary border-primary">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored border</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-primary & border-primary</h6>
+                <p class="card-text">You can also give the cards a darker border color (no transparency).</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-highlight">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-highlight</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-highlight">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-success border-success">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-success & border-success</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-success">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-warning">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-warning</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-warning">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-danger border-danger">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-danger & border-danger</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-danger">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card bg-danger">
+            <span class="corner-border-top"></span>
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-danger</h6>
+                <p class="card-text">The colors are not clear with the <strong>standard</strong> card.</p>
+                <a href="#" class="btn btn-danger">Read more</a>
+            </div>
+            <span class="corner-border-bottom"></span>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card notice bg-danger border-danger">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-danger & border-danger</h6>
+                <p class="card-text">The colors are not clear with the <strong>notice</strong>.</p>
+                <a href="#" class="btn btn-danger">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-dark">
+            <span class="corner-border-top"></span>
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-dark</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-light">Read more</a>
+            </div>
+            <span class="corner-border-bottom"></span>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-light">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-light</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-light">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p class="headline-layout small">Card groups & decks</p>
+<p>
+    These offer very little control for responsive design. Especially on smaller screens they will be way too narrow.
+    I prefer using the normal grid (with the .h-100 utility for equal height cards).
+</p>
+
+<div class="card-group mb-3">
+    <div class="card">
+        <span class="corner-border-top"></span>
+        <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+        <span class="corner-border-bottom"></span>
+    </div>
+    <div class="card">
+        <span class="corner-border-top"></span>
+        <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+        <span class="corner-border-bottom"></span>
+    </div>
+    <div class="card">
+        <span class="corner-border-top"></span>
+        <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+        <span class="corner-border-bottom"></span>
+    </div>
+    <div class="card">
+        <span class="corner-border-top"></span>
+        <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+        <span class="corner-border-bottom"></span>
+    </div>
+</div>
+
+<div class="card-deck">
+    <div class="card">
+      <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/media/hubble-carina-nebula-landscape.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+
+    <p id="carousel" class="headline-layout">Carousel</p>
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/media/hubble-carina-nebula-landscape_2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/media/hubble-carina-nebula-landscape_2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/media/hubble-carina-nebula-landscape_2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+    <p id="accordion" class="headline-layout">Collapse / Accordion</p>
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <button class="btn btn-block btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Collapsible Group Item #1
+                <i class="fa fa-fw fa-chevron-up"></i>
+                <i class="fa fa-fw fa-chevron-down"></i>
+            </button>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <button class="btn btn-block btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+                <i class="fa fa-fw fa-chevron-up"></i>
+                <i class="fa fa-fw fa-chevron-down"></i>
+            </button>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <button class="btn btn-block btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item #3
+                <i class="fa fa-fw fa-chevron-up"></i>
+                <i class="fa fa-fw fa-chevron-down"></i>
+            </button>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+    </div>
+</div>
+
+    <p id="dropdowns" class="headline-layout">Dropdowns</p>
+<p>The button colors can be changed, but the dropdown-menu will always have the same color.</p>
+<div class="dropdown float-left mr-3">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button (primary)
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="dropdown float-left mr-3">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button (secondary)
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="dropdown float-left mr-3">
+    <button class="btn btn-highlight dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button (highlight)
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="dropdown float-left mr-3">
+    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button (info)
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="dropdown float-left mr-3">
+    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button (success)
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="dropdown float-left mr-3">
+    <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button (warning)
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="dropdown float-left mr-3">
+    <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button (danger)
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="dropdown float-left mr-3">
+    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button (light)
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="dropdown bg-light pt-3 px-3 mb-3">
+    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button (dark)
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="btn-group dropdown">
+    <button type="button" class="btn btn-lg btn-primary">Large split button</button>
+    <button type="button" class="btn btn-lg btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+<div class="btn-group dropup">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropup
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+<div class="dropdown dropdown-small">
+    Small dropdown
+    <button class="btn btn-highlight dropdown-toggle" type="button" data-toggle="dropdown">
+        <i class="fa fa-fw fa-flag"></i> DE
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-flag"></i> DE</a>
+        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-flag"></i> EN</a>
+    </div>
+</div>
+
+    <p id="forms" class="headline-layout">Forms</p>
+<p class="headline-layout small">Standard form</p>
+<form>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <small>Help text.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Example select</label>
+        <select id="exampleFormControlSelect1" class="form-control selectpicker" data-style="btn-highlight">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect2">Example multiple select</label>
+        <select multiple id="exampleFormControlSelect2" class="form-control selectpicker" data-style="btn-highlight">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="input-group">
+        <label class="input-group-btn btn btn-highlight">
+            <i class="fa fa-fw fa-file"></i> Browse&hellip;
+            <input type="file" style="display: none;" multiple>
+        </label>
+        <input type="text" class="form-control" readonly>
+    </div>
+    <div class="input-group">
+        <label class="input-group-btn btn btn-highlight">
+            <i class="fa fa-fw fa-file"></i> Browse&hellip;
+            <input type="file" style="display: none;" multiple>
+        </label>
+        <input type="text" class="form-control" readonly>
+    </div>
+    <span class='label label-info' id="upload-file-info"></span>
+    <div class="form-group">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+            <label class="form-check-label" for="defaultCheck1"><i class="fa fa-check"></i> Default checkbox</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+            <label class="form-check-label" for="defaultCheck2"><i class="fa fa-check"></i> Disabled checkbox</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1"><i class="fa fa-circle"></i> Default radio</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2"><i class="fa fa-circle"></i> Second default radio</label>
+        </div>
+        <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+            <label class="form-check-label" for="exampleRadios3"><i class="fa fa-circle"></i> Disabled radio</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="" id="inlineCheck1" checked>
+            <label class="form-check-label" for="inlineCheck1"><i class="fa fa-check"></i> Inline checkbox</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="" id="inlineCheck2">
+            <label class="form-check-label" for="inlineCheck2"><i class="fa fa-check"></i> Second inline checkbox</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadios" id="inlineRadios1" value="option1" checked>
+            <label class="form-check-label" for="inlineRadios1"><i class="fa fa-circle"></i> Inline radio</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadios" id="inlineRadios2" value="option2">
+            <label class="form-check-label" for="inlineRadios2"><i class="fa fa-circle"></i> Second inline radio</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadios" id="inlineRadios3" value="option3">
+            <label class="form-check-label" for="inlineRadios3"><i class="fa fa-circle"></i> Third inline radio</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="formControlRange">Example Range input</label>
+        <input type="range" class="form-control-range" id="formControlRange">
+    </div>
+    <div class="form-group">
+        <label for="customRange1">Custom range</label>
+        <input type="range" class="custom-range" id="customRange1">
+    </div>
+</form>
+<p class="headline-layout small">Form inline</p>
+<form class="form-inline mb-5">
+    <div class="form-group">
+      <label for="inputPassword6">Password</label>
+      <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+      <small id="passwordHelpInline" class="text-muted">
+        Must be 8-20 characters long.
+      </small>
+    </div>
+</form>
+<p class="headline-layout small">Compact input fields</p>
+<form class="form-compact">
+    <div class="form-group">
+        <label for="exampleFormControlInput11">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput11" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect11">Example select</label>
+        <select id="exampleFormControlSelect11" class="form-control selectpicker" data-style="btn-highlight">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect21">Example multiple select</label>
+        <select multiple id="exampleFormControlSelect21" class="form-control selectpicker" data-style="btn-highlight">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea11">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea11" rows="3"></textarea>
+    </div>
+</form>
+
+    <p id="input-groups" class="headline-layout">Input groups</p>
+
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon1">@</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+      <span class="input-group-text" id="basic-addon2">@example.com</span>
+    </div>
+</div>
+<label for="basic-url">Your vanity URL</label>
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+    </div>
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text">$</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+    <div class="input-group-append">
+        <span class="input-group-text">.00</span>
+    </div>
+</div>
+<div class="input-group">
+    <div class="input-group-prepend">
+        <span class="input-group-text">With textarea</span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+
+<div class="input-group input-group-sm mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+</div>
+<div class="input-group input-group-lg">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+</div>
+
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+    </div>
+    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+</div>
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+</div>
+<div class="input-group mb-3">
+    <div class="input-group-prepend" id="button-addon3">
+      <button class="btn btn-outline-secondary" type="button">Button</button>
+      <button class="btn btn-outline-secondary" type="button">Button</button>
+    </div>
+    <input type="text" class="form-control" placeholder="" aria-label="Example text with two button addons" aria-describedby="button-addon3">
+</div>
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+    <div class="input-group-append" id="button-addon4">
+      <button class="btn btn-outline-secondary" type="button">Button</button>
+      <button class="btn btn-outline-secondary" type="button">Button</button>
+    </div>
+</div>
+    
+    <p id="jumbotron" class="headline-layout">Jumbotron</p>
+<div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+<div class="container-fullwidth">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+</div>
+
+    <p id="list-groups" class="headline-layout">List groups</p>
+
+<ul class="list-group">
+    <li class="list-group-item active">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item disabled">Morbi leo risus</li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">Porta ac consectetur ac <span class="badge badge-primary badge-pill">11</span></li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">Vestibulum at eros <span class="badge badge-primary badge-pill">7</span></li>
+    <button type="button" class="list-group-item list-group-item-action active">List group button (active)</button>
+    <button type="button" class="list-group-item list-group-item-action">List group button</button>
+    <button type="button" class="list-group-item list-group-item-action" disabled>List group button (disabled)</button>
+    <a href="#" class="list-group-item list-group-item-action active">List group link (active)</a>
+    <a href="#" class="list-group-item list-group-item-action">List group link</a>
+    <a href="#" class="list-group-item list-group-item-action disabled">List group link (disabled)</a>
+</ul>
+
+<p class="headline-layout small">list group flush</p>
+<ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Morbi leo risus</li>
+</ul>
+
+<p class="headline-layout small">List group horizontal</p>
+<ul class="list-group list-group-horizontal">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Morbi leo risus</li>
+</ul>
+
+<p class="headline-layout small">List group colors</p>
+<ul class="list-group">
+    <li class="list-group-item list-group-item-primary">A simple primary list group item</li>
+    <li class="list-group-item list-group-item-secondary">A simple secondary list group item</li>
+    <li class="list-group-item list-group-item-info">A simple info list group item</li>
+    <li class="list-group-item list-group-item-highlight">A simple highlight list group item</li>
+    <li class="list-group-item list-group-item-success">A simple success list group item</li>
+    <li class="list-group-item list-group-item-danger">A simple danger list group item</li>
+    <li class="list-group-item list-group-item-warning">A simple warning list group item</li>
+    <li class="list-group-item list-group-item-light">A simple light list group item</li>
+    <li class="list-group-item list-group-item-dark">A simple dark list group item</li>
+</ul>
+<div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-highlight">A simple highlight list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+</div>
+
+<p class="headline-layout small">List group with HTML content</p>
+<div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small>3 days ago</small>
+      </div>
+      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small>Donec id elit non mi porta.</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Donec id elit non mi porta.</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Donec id elit non mi porta.</small>
+    </a>
+</div>
+    
+    <p id="modals" class="headline-layout">Modals</p>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popupModal">
+    Open popup standard modal
+</button>
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#popupDangerModal">
+    Open popup danger modal
+</button>
+<div id="popupModal" class="modal modal-primary fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header main">
+                <p class="modal-title headline-alert">Primary modal main title</p>
+                <button class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-header">
+                <p class="modal-title">Modal title</p>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal">Save</button>
+                <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="popupDangerModal" class="modal modal-danger fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header main">
+                <p class="modal-title headline-alert">Danger modal main title</p>
+                <button class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-header">
+                <p class="modal-title">Modal title</p>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal">Save</button>
+                <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal modal-primary in-flow">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header main">
+                <p class="modal-title headline-alert">Primary modal main title</p>
+                <button class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-header">
+                <p class="modal-title">Modal title</p>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal modal-highlight in-flow">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header main">
+                <p class="modal-title headline-alert">Highlight modal main title</p>
+            </div>
+            <div class="modal-header">
+                <p class="modal-title">Modal title</p>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal modal-success in-flow">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header main">
+                <p class="modal-title headline-alert">Success modal main title</p>
+            </div>
+            <div class="modal-header">
+                <p class="modal-title">Modal title</p>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal modal-warning in-flow">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header main">
+                <p class="modal-title headline-alert">Warning modal main title</p>
+            </div>
+            <div class="modal-header">
+                <p class="modal-title">Modal title</p>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal modal-danger in-flow">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header main">
+                <p class="modal-title headline-alert">Danger modal main title</p>
+            </div>
+            <div class="modal-header">
+                <p class="modal-title">Modal title</p>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal">Modal button</button>
+                <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <p id="navs" class="headline-layout">Navs (Tabs, Pills, etc.)</p>
+<p class="headline-layout small">Tabs</p>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#tab-1">Tab 1</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab-2">Tab 2</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab-3">Tab 3</a>
+    </li>
+</ul>
+<div class="tab-content mb-3">
+    <div class="tab-pane active" id="tab-1">
+        Tab content 1<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+    <div class="tab-pane" id="tab-2">
+        Tab content 2<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+    <div class="tab-pane" id="tab-3">
+        Tab content 3<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+</div>
+<p class="headline-layout small">Tabs (alternative design)</p>
+<ul class="nav nav-tabs nav-fill nav-tabs-alt">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#tab-alt-1">Tab 1</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab-alt-2">Tab 2</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab-alt-3">Tab 3</a>
+    </li>
+</ul>
+<div class="tab-content mb-3">
+    <div class="tab-pane active" id="tab-alt-1">
+        Tab content 1<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+    <div class="tab-pane" id="tab-alt-2">
+        Tab content 2<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+    <div class="tab-pane" id="tab-alt-3">
+        Tab content 3<br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+        More lines <br>
+    </div>
+</div>
+
+<p class="headline-layout small">Pills</p>
+<ul class="nav nav-pills mb-3">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#tab-11">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"  data-toggle="tab" href="#tab-22">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"  data-toggle="tab" href="#tab-33">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" data-toggle="tab" href="#tab-44" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+
+<p class="headline-layout small">Standard (horizontal & vertical)</p>
+<ul class="nav mb-3">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+<ul class="nav flex-column mb-3">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+
+<p class="headline-layout small">Navbars</p>
+<nav class="navbar navbar-light bg-primary navbar-expand-lg mb-3">
+    <a class="navbar-brand" href="#">
+        <img src="assets/media/logo.png" alt="Logo" />
+        Navbar light
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown1" aria-controls="navbarNavDropdown1" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown1">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+<nav class="navbar navbar-dark navbar-expand-lg mb-3">
+    <a class="navbar-brand" href="#">
+        <img src="assets/media/logo.png" alt="Logo" />
+        Navbar dark
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+    </div>
+</nav>
+<nav class="navbar navbar-dark bg-danger navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+        <img src="assets/media/logo.png" alt="Logo" />
+        Navbar dark
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+    </div>
+</nav>
+
+<p class="headline-layout small">Megamenu & Game Info</p>
+<header>
+    <div class="container">
+        <div class="row top-bar">
+            <div class="col-12 col-md-10 order-md-2">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <div class="row">
+                        <div class="col-12 col-md-2">
+                            <strong>Imperium</strong>
+                        </div>
+                        <div class="col-12 col-md-10">
+                            <div class="row">
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Dilithium:</strong> Needed for building stuff.">
+                                    <i class="fa fa-fw fa-gem"></i> 100 (+0)
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Latinum:</strong> Needed for buying stuff.">
+                                    <i class="fa fa-fw fa-coins"></i> 750 (-34)
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Fuel</strong>: Needed for flying around.">
+                                    <i class="fa fa-fw fa-fire"></i> 2500 (+0)
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Research</strong>: Needed for inventing new stuff.">
+                                    <i class="fa fa-fw fa-flask"></i> +3
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Planets</strong>: The number of planets you own.">
+                                    <i class="fa fa-fw fa-globe"></i> 2
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="<strong>Ticks</strong>: Tick count - basically your empire's age - and the universe's age in brackets.">
+                                    <i class="fa fa-fw fa-clock"></i> 92 (7348)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-1">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <a href="/"><img src="assets/media/logo.png" alt="Logo" class="img-fluid logo" /></a>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-3">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <button class="main-menu-toggle collapsed" type="button" data-toggle="collapse" href="#mega-menu"><i class="fa fa-bars"></i></button>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mega-menu" class="collapse megamenu">
+        <div class="container">
+            <div class="menu-card">
+                <div class="row">
+                    <div class="col-6 col-md">
+                        <p class="headline3">Empire</p>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu" class="link-active">Research</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Diplomacy</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Messages</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Planets</p>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Overview</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Construction</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Buildings</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Galaxy</p>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Map</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Surveyed Systems</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Ships</a>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">Fleets</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <p class="headline3">Profile</p>
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu">User Name</a>
+                    </div>
+                    <div class="col-12 col-md align-self-end text-right">
+                        <a href="#" data-toggle="collapse" data-target="#mega-menu" class="headline3">Logout <i class="fa fa-fw fa-sign-out-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card compact">
+            <span class="corner-border-top"></span>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        <strong>Active planet:</strong>
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <form class="form-simple">
+                            <select class="form-control dropdown-small selectpicker" data-style="btn-primary">
+                                <option>Planet Prime</option>
+                                <option>Planet Omega</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        Class
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <div class="no-break">
+                            <div data-toggle="tooltip" data-placement="top" title="Planet's class and subclass in brackets.">
+                                <i class="fa fa-fw fa-globe"></i> M (Marshland)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        Population
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <div class="no-break">
+                            <div data-toggle="tooltip" data-placement="top" title="Current population / Maximum population (+ Growth)">
+                                <i class="fa fa-fw fa-users"></i> 376/1250 (+1)
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Unemployed workers.">
+                                <i class="fa fa-fw fa-user-clock"></i> 7
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        Production
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <div class="no-break">
+                            <div data-toggle="tooltip" data-placement="top" title="Construction">
+                                <i class="fa fa-fw fa-wrench"></i> +10
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Shipyard">
+                                <i class="fa fa-fw fa-rocket"></i> +0
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Barracks">
+                                <i class="fa fa-fw fa-user-astronaut"></i> +0
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Latinum">
+                                <i class="fa fa-fw fa-coins"></i> -11
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Fuel">
+                                <i class="fa fa-fw fa-fire"></i> +0
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="Energy">
+                                <i class="fa fa-fw fa-bolt"></i> 0 (+0)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        Resources
+                    </div>
+                    <div class="col-6 col-md-10">
+                        <div class="no-break">
+                            <div data-toggle="tooltip" data-placement="top"title="<strong>Food</strong>: Needed for feeding the population.">
+                                <i class="fa fa-fw fa-seedling icon-food"></i> <span>1739 (+8)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Ore</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-ore"></i> <span>265 (+5)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Duranium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-duranium"></i> <span>160 (+5)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Deuterium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-deuterium"></i> <span>52 (+2)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Crystal</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-crystal"></i> <span>0 (+0)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Dilithium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-dilithium"></i> <span>0 (+0)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Iridium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-iridium"></i> <span>0 (+0)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Tritanium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-tritanium"></i> <span>0 (+0)</span>
+                            </div>
+                            <div data-toggle="tooltip" data-placement="top" title="<strong>Trellium-D</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-trellium-d"></i> <span>0 (+0)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="corner-border-bottom"></span>
+        </div>
+    </div>
+</header>
+
+    <p id="pagination" class="headline-layout">Pagination</p>
+<ul class="pagination">
+    <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-fw fa-angle-left"></i></a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item" aria-current="page">
+        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+        <a class="page-link" href="#"><i class="fa fa-fw fa-angle-right"></i></a>
+    </li>
+</ul>
+<ul class="pagination pagination-lg">
+    <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-fw fa-angle-left"></i></a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item" aria-current="page">
+        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+        <a class="page-link" href="#"><i class="fa fa-fw fa-angle-right"></i></a>
+    </li>
+</ul>
+<ul class="pagination pagination-sm">
+    <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-fw fa-angle-left"></i></a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item" aria-current="page">
+        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+        <a class="page-link" href="#"><i class="fa fa-fw fa-angle-right"></i></a>
+    </li>
+</ul>
+
+    <p id="popovers-tooltips" class="headline-layout">Popovers & Tooltips</p>
+<p class="headline-layout small">Popovers</p>
+<button
+    type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title"
+    data-content="And here's some amazing content. It's very engaging. Right?"
+>
+    Click to toggle popover
+</button>
+<br>
+<button
+    type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top"
+    data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+>
+    Popover on top
+</button>
+<button
+    type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right"
+    data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+>
+    Popover on right
+</button>
+<button
+    type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom"
+    data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+>
+    Popover on bottom
+</button>
+<button
+    type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left"
+    data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+>
+    Popover on left
+</button>
+
+<p class="headline-layout small">Tooltips</p>
+<div class="float-left mr-5" data-toggle="tooltip" data-placement="top" title="<strong>Food</strong>: Needed for feeding the population.">
+    <i class="fa fa-fw fa-seedling icon-food"></i> <span>100%</span>
+</div>
+<div class="float-left mr-5" data-toggle="tooltip" data-placement="bottom" title="<strong>Ore</strong>: Needed for building stuff.">
+    <i class="fa fa-fw fa-gem icon-ore"></i> <span>100%</span>
+</div>
+<div class="float-left mr-5" data-toggle="tooltip" data-placement="left" title="<strong>Duranium</strong>: Needed for building stuff.">
+    <i class="fa fa-fw fa-gem icon-duranium"></i> <span>100%</span>
+</div>
+<div class="float-left mr-5" data-toggle="tooltip" data-placement="right" title="<strong>Deuterium</strong>: Needed for building stuff.">
+    <i class="fa fa-fw fa-gem icon-deuterium"></i> <span>100%</span>
+</div>
+<div class="clearfix"></div>
+
+    <p id="progress" class="headline-layout">Progress bars</p>
+
+<div class="progress mb-3">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress mb-3">
+    <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+</div>
+<div class="progress mb-3">
+    <div class="progress-bar bg-highlight" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div>
+<div class="progress mb-3">
+    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+</div>
+<div class="progress mb-3">
+    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+</div>
+<div class="progress mb-3" style="height: 30px;">
+    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+</div>
+
+<div class="progress mb-3">
+    <div class="progress-bar bg-primary" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+<div class="progress mb-3">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div>
+
+    <p id="spinners" class="headline-layout">Spinners</p>
+<div class="spinner-border text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-light" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<br class="mb-3" />
+<div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-success" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<br class="mb-3" />
+<div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+<br class="mb-3" />
+<button class="btn btn-icon btn-success" type="button">
+    <span
+        class="spinner-border spinner-border-sm"
+        role="status"
+        aria-hidden="true"
+    ></span>
+    <span class="sr-only">Loading...</span>
+</button>
+<button class="btn btn-primary" type="button" disabled>
+    <span
+        class="spinner-border spinner-border-sm"
+        role="status"
+        aria-hidden="true"
+    ></span>
+    Loading...
+</button>
+<button class="btn btn-icon btn-primary" type="button" disabled>
+    <span
+        class="spinner-grow spinner-grow-sm"
+        role="status"
+        aria-hidden="true"
+    ></span>
+    <span class="sr-only">Loading...</span>
+</button>
+<button class="btn btn-highlight" type="button">
+    <span
+        class="spinner-grow spinner-grow-sm"
+        role="status"
+        aria-hidden="true"
+    ></span>
+    Loading...
+</button>
+<br>
+<button class="btn btn-sm btn-primary" type="button" disabled>
+    <span
+        class="spinner-border spinner-border-sm"
+        role="status"
+        aria-hidden="true"
+    ></span>
+    Loading...
+</button>
+<button class="btn btn-lg btn-primary" type="button" disabled>
+    <span
+        class="spinner-border spinner-border"
+        role="status"
+        aria-hidden="true"
+    ></span>
+    Loading...
+</button>
+
+    <p id="toasts" class="headline-layout">Toasts</p>
+<div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <img src="assets/media/logo.png" class="rounded mr-2" alt="..." />
+        <strong class="mr-auto">This is a toast!</strong>
+        <small class="text-muted">just now</small>
+        <button
+            type="button"
+            class="ml-2 mb-1 close"
+            data-dismiss="toast"
+            aria-label="Close"
+        >
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="toast-body">
+        It works like push notifications, e.g. on mobile phones.
+    </div>
+</div>
+
+<div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <img src="assets/media/logo.png" class="rounded mr-2" alt="..." />
+        <strong class="mr-auto">Notification</strong>
+        <small class="text-muted">2 seconds ago</small>
+        <button
+            type="button"
+            class="ml-2 mb-1 close"
+            data-dismiss="toast"
+            aria-label="Close"
+        >
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="toast-body">
+        Heads up, toasts will stack automatically
+    </div>
+</div>
+
+
+    <p id="tables" class="headline-layout">Tables</p>
+<p>Fully responsive table (check it out on mobile) with tooltips to save space (hover over the resources).</p>
+<div class="container-fluid table">
+    <div class="row d-none d-md-flex table-header">
+        <div class="col-md-2 table-cell">Class</div>
+        <div class="col-md-2 table-cell">Coordinates</div>
+        <div class="col-md-2 table-cell">Population</div>
+        <div class="col-md-2 table-cell">Status</div>
+        <div class="col-md table-cell">Resources</div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Class
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                    <i class="fa fa-fw fa-globe"></i> M
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Coordinates
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                        178/39
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Population
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                    991
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Colonized
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                    Colonized<br>
+                    by Space Empire
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Resources
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                        <div class="row resources">
+                            <div class="col" data-toggle="tooltip" data-placement="top"title="<strong>Food</strong>: Needed for feeding the population.">
+                                <i class="fa fa-fw fa-seedling icon-food"></i> <span>120%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Ore</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-ore"></i> <span>100%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Duranium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-duranium"></i> <span>100%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Deuterium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-deuterium"></i> <span>100%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Crystal</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-crystal"></i> <span>0%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Dilithium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-dilithium"></i> <span>0%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Iridium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-iridium"></i> <span>0%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Tritanium</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-tritanium"></i> <span>0%</span>
+                            </div>
+                            <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Trellium-D</strong>: Needed for building stuff.">
+                                <i class="fa fa-fw fa-gem icon-trellium-d"></i> <span>0%</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Class
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                    <i class="fa fa-fw fa-globe"></i> H
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Coordinates
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                        178/39
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Population
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                    783
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Colonized
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                    Not colonized
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="row">
+                <div class="col-6 d-flex d-md-none table-sidebar table-cell">
+                    Resources
+                </div>
+                <div class="col-6 col-md-12 table-cell">
+                    <div class="row resources">
+                        <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Food</strong>: Needed for feeding the population.">
+                            <i class="fa fa-fw fa-seedling icon-food"></i> <span>100%</span>
+                        </div>
+                        <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Ore</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-ore"></i> <span>100%</span>
+                        </div>
+                        <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Duranium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-duranium"></i> <span>100%</span>
+                        </div>
+                        <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Deuterium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-deuterium"></i> <span>100%</span>
+                        </div>
+                        <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Crystal</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-crystal"></i> <span>100%</span>
+                        </div>
+                        <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Dilithium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-food"></i> <span>0%</span>
+                        </div>
+                        <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Iridium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-iridium"></i> <span>0%</span>
+                        </div>
+                        <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Tritanium</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-tritanium"></i> <span>0%</span>
+                        </div>
+                        <div class="col" data-toggle="tooltip" data-placement="top" title="<strong>Trellium-D</strong>: Needed for building stuff.">
+                            <i class="fa fa-fw fa-gem icon-trellium-d"></i> <span>0%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="accordion" id="bootstrapTables">
+    <div class="card">
+        <div class="card-header" id="bootstrapTablesH">
+            <button class="btn btn-block btn-link" type="button" data-toggle="collapse" data-target="#bootstrapTablesC" aria-expanded="false" aria-controls="bootstrapTablesC">
+                Standard Bootstrap Tables
+                <i class="fa fa-fw fa-chevron-up"></i>
+                <i class="fa fa-fw fa-chevron-down"></i>
+            </button>
+        </div>
+        <div id="bootstrapTablesC" class="collapse" aria-labelledby="bootstrapTablesH" data-parent="#bootstrapTables">
+            <div class="card-body">
+                <p class="headline-layout small">Non-bootstrap table</p>
+                <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table</p>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table dark</p>
+                <table class="table table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table header light & dark</p>
+                <table class="table">
+                    <thead class="thead-light">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+                  <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table striped (light/dark)</p>
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <table class="table table-striped table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table bordered (light/dark)</p>
+                <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table borderless (light/dark)</p>
+                <table class="table table-borderless">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <table class="table table-borderless table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table hover (light/dark)</p>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <table class="table table-hover table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table small (light/dark)</p>
+                <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <table class="table table-sm table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table colored (light/dark)</p>
+                <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="table-active">
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr class="table-warning">
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td class="table-active">Larry</td>
+                        <td>the Bird</td>
+                        <td class="table-success">@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <table class="table table-sm table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="bg-warning">
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr class="bg-success">
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td class="bg-warning">the Bird</td>
+                        <td class="bg-success">@twitter</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <p class="headline-layout small">Table (not really) responsive, but scrollable</p>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Heading</th>
+                            <th scope="col">Heading</th>
+                            <th scope="col">Heading</th>
+                            <th scope="col">Heading</th>
+                            <th scope="col">Heading</th>
+                            <th scope="col">Heading</th>
+                            <th scope="col">Heading</th>
+                            <th scope="col">Heading</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                            <td>Cell</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <p id="map" class="headline-layout">Galaxy Map Controls</p>
+<div class="row">
+    <div class="col-12 col-sm-4">
+        <div class="control-pad">
+            <i class="control-arrow fa fa-fw fa-arrow-up"></i>
+            <i class="control-arrow fa fa-fw fa-chevron-up"></i>
+            <i class="control-arrow fa fa-fw fa-arrow-right"></i>
+            <i class="control-arrow fa fa-fw fa-chevron-right"></i>
+            <i class="control-arrow fa fa-fw fa-arrow-down"></i>
+            <i class="control-arrow fa fa-fw fa-chevron-down"></i>
+            <i class="control-arrow fa fa-fw fa-arrow-left"></i>
+            <i class="control-arrow fa fa-fw fa-chevron-left"></i>
+        </div>
+    </div>
+    <div class="col-12 col-sm-4">
+        <form class="form-compact">
+            <div class="form-group">
+                <label for="coordinateX">X-Axis</label>
+                <input type="number" class="form-control" id="coordinateX" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="coordinateY">Y-Axis</label>
+                <input type="number" class="form-control" id="coordinateY" placeholder="">
+            </div>
+            <button class="btn btn-highlight">Go to coordinates</button>
+        </form>
+    </div>
+    <div class="col-12 col-sm-4">
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="scanRange" checked>
+                <label class="form-check-label" for="scanRange"><i class="fa fa-check"></i> Show scan range</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fuelRange">
+                <label class="form-check-label" for="fuelRange"><i class="fa fa-check"></i> Show fuel range</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <p id="image-utilities" class="headline-layout">Image utilities</p>
+<p>There are some useful image classes & scripts.</p>
+<p class="headline3 mb-0">.convert-to-bg</p>
+<p class="mb-0">The class .convert-to-bg adds the image to the parent container as a background image that fills all available space and hides the original. Useful for horizontal cards.</p>
+<p>It may cut off some parts of the image.</p>
+<div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
+    <div class="col">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-3">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top convert-to-bg" alt="Carina Nebula captured by the Hubble Space Telescope">
+                </div>
+                <div class="col-9">
+                    <div class="card-body py-2">
+                        <h5 class="card-title">Carina Nebula</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-3">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top convert-to-bg" alt="Carina Nebula captured by the Hubble Space Telescope">
+                </div>
+                <div class="col-9">
+                    <div class="card-body py-2">
+                        <h5 class="card-title">Carina Nebula</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-3">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top convert-to-bg" alt="Carina Nebula captured by the Hubble Space Telescope">
+                </div>
+                <div class="col-9">
+                    <div class="card-body py-2">
+                        <h5 class="card-title">Carina Nebula</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-3">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg" class="card-img-top convert-to-bg" alt="Carina Nebula captured by the Hubble Space Telescope">
+                </div>
+                <div class="col-9">
+                    <div class="card-body py-2">
+                        <h5 class="card-title">Carina Nebula</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<p class="headline3 mb-0">.parallax-container & .parallax-image</p>
+<p class="mb-0">The classes .parallax-container & .parallax-image work similar to .convert-to-bg. .parallax-container defines a container where a child image with the class .parallax-image is used as a background image. The styles are different though. The background image is fixed, so it doesn't move when the page is scrolled, creating a parallax effect.</p>
+<p>The most common usecase is on fullwidth elements, but it can be used on anything (e.g. containers, columns, cards, etc.).</p>
+<div class="container-fullwidth parallax-container mb-4">
+    <img class="parallax-image" src="assets/media/hubble-carina-nebula-landscape_2.jpg" />
+    <div class="container p-5">
+        <p class="headline2">Fullwidth element inside non-fullwidth container</p>
+        <p>
+            You can also get an element inside a non-fullwidth container to span the whole viewport width with the class <strong>.container-fullwidth</strong>.</br>
+            Here it is used to create a fullwidth background and container-width text.
+        </p>
+        <p>This is useful if you have a complicated page structure and can't get out of your container for just this one element    .</p>
+    </div>
+</div>
+<div class="row row-cols-2 row-cols-md-3">
+    <div class="col">
+        <div class="parallax-container text-center p-5 mb-4">
+            <img class="parallax-image" src="assets/media/hubble-carina-nebula-square.jpg" />
+            <p class="headline3">Parallax on columns</p>
+            <p>You can even add the parallax background to columns, cards, etc.</p>
+            <p>If you use the same image for all elements, you get a nice puzzle/window effect, as you can see here.</p>
+        </div>
+    </div>
+    <div class="col">
+        <div class="parallax-container text-center p-5 mb-4">
+            <img class="parallax-image" src="assets/media/hubble-carina-nebula-square.jpg" />
+            <p class="headline3">Parallax on columns</p>
+            <p>You can even add the parallax background to columns, cards, etc.</p>
+            <p>If you use the same image for all elements, you get a nice puzzle/window effect, as you can see here.</p>
+        </div>
+    </div>
+    <div class="col">
+        <div class="parallax-container text-center p-5 mb-4">
+            <img class="parallax-image" src="assets/media/hubble-carina-nebula-square.jpg" />
+            <p class="headline3">Parallax on columns</p>
+            <p>You can even add the parallax background to columns, cards, etc.</p>
+            <p>If you use the same image for all elements, you get a nice puzzle/window effect, as you can see here.</p>
+        </div>
+    </div>
+</div>
+<p class="headline3 mb-0">.avatar</p>
+<p>The .avatar class also creates a background image from a child image. It centers it and makes it circular. There is also an .avatar-lg class to create bigger avatars.</p>
+<div class="row row-cols-2 row-cols-md-4">
+    <div class="col text-center">
+        <div class="avatar mr-3">
+            <img src="assets/media/hubble-carina-nebula-square.jpg">
+        </div>
+    </div>
+    <div class="col text-center">
+        <div class="avatar avatar-lg">
+            <img src="assets/media/hubble-carina-nebula-square.jpg">
+        </div>
+    </div>
+    <div class="col">
+        <div class="card bg-success">
+            <div class="card-body text-center">
+                <div class="avatar">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg">
+                </div>
+                <p>Border color changes inside cards to match the card color.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card bg-warning">
+            <div class="card-body text-center">
+                <div class="avatar">
+                    <img src="assets/media/hubble-carina-nebula-square.jpg">
+                </div>
+                <p>Border color changes inside cards to match the card color.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+    <button id="back-to-top" class="btn btn-highlight" role="button">
+    <span class="fa fa-chevron-up"></span>
+</button>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-2 order-md-2">
+                <div class="dropdown dropdown-small">
+                    <button class="btn btn-highlight dropdown-toggle" type="button" data-toggle="dropdown">
+                        <i class="fa fa-fw fa-flag"></i> DE
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-flag"></i> DE</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-flag"></i> EN</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2 order-md-3 text-right">
+                <a type="button" data-toggle="modal" data-target="#imprintModal">
+                    Imprint
+                </a>
+                <div id="imprintModal" class="modal modal-primary fade" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header main">
+                                <p class="modal-title headline-alert">Imprint</p>
+                                <button class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-header">
+                                <p class="modal-title">Live Webagentur</p>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Sara Geller<br />
+                                    6800 Feldkirch<br />
+                                    Austria
+                                </p>
+                                <p>
+                                    Email: info@live-webagentur.eu<br />
+                                    Phone: +43 677 61 3344 87<br />
+                                    Website: www.live-webagentur.eu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 order-md-1">
+                &copy; Live Webagentur &ndash; All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="index.app.js"></script></body>
+
+</html>

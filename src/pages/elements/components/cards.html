@@ -1,0 +1,370 @@
+<p id="cards" class="headline-layout">Cards</p>
+<div class="card">
+    <span class="corner-border-top"></span>
+    <div class="card-body">
+        <strong>Standard card.</strong><br>
+        The standard card features a gradient from top to bottom and you can add optional highlights to the corners.
+    </div>
+    <span class="corner-border-bottom"></span>
+</div>
+<div class="card notice">
+    <div class="card-body">
+        <strong>Notice card.</strong><br>
+        The notice card fades to black toward the right, but is held together by a strong border at the bottom.
+    </div>
+</div>
+<div class="card solid">
+    <span class="corner-border-top line"></span>
+    <div class="card-body">
+        <strong>Solid card.</strong><br>
+        The solid card has a transparent background without a gradient. It also shows alternative line shaped corner highlights.
+    </div>
+    <span class="corner-border-bottom line"></span>
+</div>
+
+<p class="headline-layout small">Cards with images & other elements</p>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">
+        <div class="card">
+            <span class="corner-border-top"></span>
+            <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+            <div class="card-body">
+                <h5 class="card-title">Carina Nebula</h5>
+                <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+            <span class="corner-border-bottom"></span>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card notice">
+            <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+            <div class="card-body">
+                <h5 class="card-title">Carina Nebula</h5>
+                <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid">
+            <span class="corner-border-top line"></span>
+            <img src="${require('src/assets/media/hubble-carina-nebula-portrait.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Card Overlay</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Text on top of the image</h6>
+                <p class="card-text">The card overlay places the text on top of the image.</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+            <div class="card-body">
+                <p class="card-text">You can still use card-body, but it will be below the card overlay, so buttons won't work.</p>
+                <a href="#" class="btn btn-primary">You can't click me</a>
+            </div>
+            <span class="corner-border-bottom line"></span>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Carina Nebula</h5>
+                <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+            <div class="card-footer small text-muted">
+                5 days ago
+            </div>
+        </div>
+    </div>
+</div>
+
+<p class="headline-layout small">Horizontal cards</p>
+<p>You can use the <strong>.convert-to-bg</strong> class on images in horizontal cards, so they always fill up the available space (parts of the image may be cut off).</p>
+
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-6">
+                    <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}" class="card-img-top convert-to-bg" alt="Carina Nebula captured by the Hubble Space Telescope">
+                    <div class="card-img-overlay small">
+                        (c) NASA
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Carina Nebula</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                        <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                        <a href="#" class="btn btn-primary mb-0">Read more</a>
+                    </div>
+                    <div class="card-footer small text-muted">
+                        5 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-6">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-4">
+                    <img src="${require('src/assets/media/hubble-carina-nebula-portrait.jpg')}" class="card-img-top convert-to-bg" alt="Carina Nebula captured by the Hubble Space Telescope">
+                    <div class="card-img-overlay small">
+                        (c) NASA
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Carina Nebula</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">The "Mystic Mountains"</h6>
+                        <p class="card-text">The Hubble Space Telescope captured this view of the Carina Nebula. It was quickly dubbed the "Mystic Mountains".</p>
+                        <a href="#" class="btn btn-primary mb-0">Read more</a>
+                    </div>
+                    <div class="card-footer small text-muted">
+                        5 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p class="headline-layout small">Colored cards</p>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5">
+    <div class="col">
+        <div class="card solid bg-primary">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-primary</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-primary border-primary">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored border</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-primary & border-primary</h6>
+                <p class="card-text">You can also give the cards a darker border color (no transparency).</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-highlight">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-highlight</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-highlight">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-success border-success">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-success & border-success</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-success">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-warning">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-warning</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-warning">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-danger border-danger">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-danger & border-danger</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-danger">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card bg-danger">
+            <span class="corner-border-top"></span>
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-danger</h6>
+                <p class="card-text">The colors are not clear with the <strong>standard</strong> card.</p>
+                <a href="#" class="btn btn-danger">Read more</a>
+            </div>
+            <span class="corner-border-bottom"></span>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card notice bg-danger border-danger">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-danger & border-danger</h6>
+                <p class="card-text">The colors are not clear with the <strong>notice</strong>.</p>
+                <a href="#" class="btn btn-danger">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-dark">
+            <span class="corner-border-top"></span>
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-dark</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-light">Read more</a>
+            </div>
+            <span class="corner-border-bottom"></span>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card solid bg-light">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Colored cards</h5>
+                <h6 class="card-subtitle mb-2 text-muted">bg-light</h6>
+                <p class="card-text">You can use the background color utilities with all card types. But it looks best with the <strong>solid</strong> card.</p>
+                <a href="#" class="btn btn-light">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p class="headline-layout small">Card groups & decks</p>
+<p>
+    These offer very little control for responsive design. Especially on smaller screens they will be way too narrow.
+    I prefer using the normal grid (with the .h-100 utility for equal height cards).
+</p>
+
+<div class="card-group mb-3">
+    <div class="card">
+        <span class="corner-border-top"></span>
+        <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+        <span class="corner-border-bottom"></span>
+    </div>
+    <div class="card">
+        <span class="corner-border-top"></span>
+        <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+        <span class="corner-border-bottom"></span>
+    </div>
+    <div class="card">
+        <span class="corner-border-top"></span>
+        <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+        <span class="corner-border-bottom"></span>
+    </div>
+    <div class="card">
+        <span class="corner-border-top"></span>
+        <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+        <span class="corner-border-bottom"></span>
+    </div>
+</div>
+
+<div class="card-deck">
+    <div class="card">
+      <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="${require('src/assets/media/hubble-carina-nebula-landscape.jpg')}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>

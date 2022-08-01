@@ -1,0 +1,191 @@
+<div class="container">
+    <h1 class="headline-alert">Profile</h1>
+    <p>Profile page to show user data with an alternative tab & notification design.</p>
+    <hr>
+</div>
+<div class="header-image parallax-container">
+    <img src="${require('src/assets/media/hubble-carina-nebula-landscape_2.jpg')}" class="parallax-image" alt="Carina Nebula captured by the Hubble Space Telescope">
+    <div class="container text-center p-3 p-sm-5">
+        <h1 class="headline-alert mb-0">Robin Wayfarer</h1>
+        <h2 class="headline1 mb-4">Spaceship Captain</h2>
+        <button class="btn btn-lg btn-rounded btn-icon btn-highlight" data-toggle="tooltip" data-placement="bottom" title="Show messages">
+            <i class="fa fa-fw fa-envelope"></i>
+        </button>
+        <div class="avatar avatar-xl mx-3 mx-sm-5" data-toggle="tooltip" data-placement="bottom" title="Click to change your profile picture">
+            <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}">
+        </div>
+        <button class="btn btn-lg btn-rounded btn-icon btn-highlight" data-toggle="tooltip" data-placement="bottom" title="Add friend">
+            <i class="fa fa-fw fa-plus"></i>
+        </button>
+    </div>
+</div>
+<div class="container text-center p-3 p-sm-5">
+    <p class="lead">I have been traveling the stars for many years. I cannot imagine another life. If you like, you can join me on my next trip. We are always looking for additional crew members.</p>
+    <p class="headline2 text-uppercase"><i class="fa fa-fw fa-map-marker-alt"></i> Andromeda Galaxy</p>
+</div>
+<div class="container">
+    <ul class="nav nav-tabs nav-fill nav-tabs-alt">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#activity">Activity</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#statistics">Statistics</a>
+        </li>
+    </ul>
+    <div class="tab-content mb-3">
+        <div class="tab-pane active" id="activity">
+            <div class="card notice mb-0">
+                <div class="row align-items-center">
+                    <div class="col-2 text-center">
+                        <div class="avatar m-3">
+                            <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Support request</h5>
+                            <p class="card-text mb-0"><strong>Sasha</strong> asks for support defending their base.</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p class="text-muted mb-0">1 minute ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card notice mb-0">
+                <div class="row align-items-center">
+                    <div class="col-2 text-center">
+                        <i class="fa fa-fw fa-2x fa-rocket m-3"></i>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Started exploration mission</h5>
+                            <p class="card-text mb-0">You started the mission <strong>Exploring Space Object</strong>. It will take you 1 hour to complete.</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p class="text-muted mb-0">3 minutes ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card notice mb-0">
+                <div class="row align-items-center">
+                    <div class="col-2 text-center">
+                        <i class="fa fa-fw fa-2x fa-wrench m-3"></i>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Started mining mission</h5>
+                            <p class="card-text mb-0">You started the mission <strong>Mining Ore</strong>. It will take you 2 hours to complete.</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p class="text-muted mb-0">5 minutes ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card notice mb-0">
+                <div class="row align-items-center">
+                    <div class="col-2 text-center">
+                        <div class="avatar m-3">
+                            <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Received message</h5>
+                            <p class="card-text mb-0"><strong>Sasha</strong> sent you a message. Check it out in your inbox.</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p class="text-muted mb-0">7 hours ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card notice mb-0">
+                <div class="row align-items-center">
+                    <div class="col-2 text-center">
+                        <div class="avatar m-3">
+                            <img src="${require('src/assets/media/hubble-carina-nebula-square.jpg')}">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Accepted friends request</h5>
+                            <p class="card-text mb-0">You are now friends with <strong>Sasha</strong>. You can now see Robin's activities and write messages to each other.</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p class="text-muted mb-0">1 day ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="statistics">
+            <h4 class="headline2">Activity</h4>
+            <div class="progress mb-3" style="height: 50px;">
+                <div class="progress-bar bg-highlight" role="progressbar" style="width: 34%" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100">34% Exploration</div>
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 27%" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100">27% Mining</div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20% Building</div>
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 19%" aria-valuenow="19" aria-valuemin="0" aria-valuemax="100">19% Combat</div>
+            </div>
+            <h4 class="headline2">Missions</h4>
+            <div class="progress mb-3" style="height: 50px;">
+                <div class="progress-bar bg-highlight" role="progressbar" style="width: 85.7%" aria-valuenow="85.7" aria-valuemin="0" aria-valuemax="100">85.7% (245 of 286 missions) completed</div>
+            </div>
+            <h4 class="headline2">Numbers</h4>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 no-gutters">
+                <div class="col">
+                    <div class="card h-100 mb-0">
+                        <div class="corner-border-top"></div>
+                        <div class="card-body text-center">
+                            <p class="card-title text-uppercase font-weight-bold">Ships</p>
+                            <p class="mb-0">7</p>
+                        </div>
+                        <div class="corner-border-bottom"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 mb-0">
+                        <div class="corner-border-top"></div>
+                        <div class="card-body text-center">
+                            <p class="card-title text-uppercase font-weight-bold">Space Stations</p>
+                            <p class="mb-0">2</p>
+                        </div>
+                        <div class="corner-border-bottom"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 mb-0">
+                        <div class="corner-border-top"></div>
+                        <div class="card-body text-center">
+                            <p class="card-title text-uppercase font-weight-bold">Planets</p>
+                            <p class="mb-0">4</p>
+                        </div>
+                        <div class="corner-border-bottom"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 mb-0">
+                        <div class="corner-border-top"></div>
+                        <div class="card-body text-center">
+                            <p class="card-title text-uppercase font-weight-bold">Ore</p>
+                            <p class="mb-0">13067</p>
+                        </div>
+                        <div class="corner-border-bottom"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 mb-0">
+                        <div class="corner-border-top"></div>
+                        <div class="card-body text-center">
+                            <p class="card-title text-uppercase font-weight-bold">Friends</p>
+                            <p class="mb-0">37</p>
+                        </div>
+                        <div class="corner-border-bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
