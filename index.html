@@ -2,13 +2,13 @@
 <htm lang="en">
 
 <head>
-    <%= require('./src/partials/meta.html') %><!-- This syntax can also be used to include variables, like a title from the webpack config, e.g. htmlWebpackPlugin.options.title -->
+    <%= require('/src/partials/meta.html') %><!-- This syntax can also be used to include variables, like a title from the webpack config, e.g. htmlWebpackPlugin.options.title -->
 </head>
 
 <body>
-    ${require('./src/partials/header.html')} <!-- This syntax also works in subfiles for including partials -->
-    ${require('./src/partials/body.html')}
-    ${require('./src/partials/footer.html')}
+    ${require('/src/partials/header.html')} <!-- This syntax also works in subfiles for including partials -->
+    ${require('/src/partials/body.html')}
+    ${require('/src/partials/footer.html')}
 </body>
 
 </html>
